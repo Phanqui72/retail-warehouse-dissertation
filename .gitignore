@@ -1,0 +1,21 @@
+# --- bí mật: KHÔNG BAO GIỜ commit ---
+.env
+.env.*
+!.env.example
+*.pem
+
+# --- dữ liệu: chỉ để local ---
+data/
+*.csv
+*.parquet
+*.zip
+*.xlsx
+
+# --- runtime / IDE ---
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+logs/
+docs/

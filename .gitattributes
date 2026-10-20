@@ -1,0 +1,5 @@
+# Luôn lưu file văn bản với xuống dòng LF (Linux) — script .sh/.py chạy trong container sẽ không lỗi \r
+* text=auto eol=lf
+*.zip binary
+*.png binary
+*.xlsx binary
