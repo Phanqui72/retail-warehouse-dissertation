@@ -1,8 +1,9 @@
 # VNB Lakehouse (batch) — hạ tầng tối thiểu: Postgres · MinIO · Iceberg REST · Trino · Spark
-# Hằng số: config/settings.env   ·   Bí mật: .env (không commit)
+# Tham số ứng dụng: config/settings.env   ·   Bí mật: .env (không commit)
+# File này chỉ khai báo HẠ TẦNG (image, cổng, volume, RAM); mọi tham số khác đọc từ 2 file trên.
+# Lưu ý: trong lệnh shell của compose, "$$X" = biến X của container (compose không tự thay).
 name: vnb_lakehouse
 
-# Anchor YML to reference: &env to include env_file in multiple services
 x-env: &env
   env_file: [./config/settings.env, ./.env]
 
@@ -13,7 +14,6 @@ services:
     <<: *env
     volumes:
       - pg_data:/var/lib/postgresql/data
-      - ./docker/postgres/init:/docker-entrypoint-initdb.d:ro
     ports: ["5433:5432"]
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER"]
@@ -21,6 +21,24 @@ services:
       retries: 30
     mem_limit: 256m
     restart: unless-stopped
+
+  postgres-init:
+    image: postgres:16.4
+    <<: *env
+    entrypoint: ["sh", "-c"]
+    command:
+      - |
+        export PGPASSWORD="$$POSTGRES_PASSWORD"
+        for db in "$$ICEBERG_CATALOG_DB" "$$AIRFLOW_DB"; do
+          exists=$$(psql -h "$$POSTGRES_HOST" -p "$$POSTGRES_PORT" -U "$$POSTGRES_USER" -d postgres -tAc "SELECT 1 FROM pg_database WHERE datname = '$$db'")
+          if [ "$$exists" = "1" ]; then
+            echo "[postgres-init] database $$db đã có"
+          else
+            psql -h "$$POSTGRES_HOST" -p "$$POSTGRES_PORT" -U "$$POSTGRES_USER" -d postgres -c "CREATE DATABASE \"$$db\"" && echo "[postgres-init] đã tạo database $$db"
+          fi
+        done
+    depends_on: {postgres: {condition: service_healthy}}
+    restart: "no"
 
 volumes:
   pg_data:
