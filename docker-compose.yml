@@ -95,6 +95,26 @@ services:
     depends_on: {iceberg-rest: {condition: service_started}}
     mem_limit: 1300m
     restart: unless-stopped
+  # ---------------------------------------------------------------- (B7) Spark — chạy theo lệnh, không chạy nền
+  spark:
+    build: {context: ., dockerfile: docker/spark/Dockerfile}
+    image: vnb/spark:3.5.3-iceberg1.6.1
+    <<: *env
+    # master / RAM lấy từ settings.env; phần sau "docker compose run --rm spark" được truyền vào "$$@"
+    entrypoint:
+      - sh
+      - -c
+      - exec /opt/spark/bin/spark-submit --master "$$SPARK_MASTER" --driver-memory "$$SPARK_DRIVER_MEMORY" "$$@"
+      - spark-submit
+    volumes:
+      - ./jobs:/opt/jobs:ro
+    ports: ["4041:4040"]
+    depends_on:
+      iceberg-rest: {condition: service_started}
+    mem_limit: 2200m
+    profiles: ["jobs"]
+    restart: "no"
+
 
 volumes:
   pg_data:
