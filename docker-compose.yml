@@ -114,7 +114,19 @@ services:
     mem_limit: 2200m
     profiles: ["jobs"]
     restart: "no"
-
+  # ---------------------------------------------------------------- (P2) upload dữ liệu lên landing — chạy theo lệnh
+  landing-upload:
+    image: vnb/tools:0.1
+    pull_policy: never
+    <<: *env
+    entrypoint: ["python", "/app/scripts/landing_upload.py"]
+    volumes:
+      - ./scripts:/app/scripts:ro
+      - ./data/landing:/data/landing:ro       # đích trong container = LANDING_SRC_DIR (settings.env)
+    depends_on:
+      minio-init: {condition: service_completed_successfully}
+    profiles: ["jobs"]
+    restart: "no"
 
 volumes:
   pg_data:
