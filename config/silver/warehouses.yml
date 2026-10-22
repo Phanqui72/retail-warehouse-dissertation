@@ -1,0 +1,16 @@
+dataset: warehouses
+group: master
+order: 14
+kind: master
+source: warehouses
+target: warehouses
+key: [depot_id]
+columns:
+  depot_id: int
+  depot_code: string
+  warehouse_name: string
+  warehouse_role: string
+  region: string
+  province_code: string
+  is_stock_alert: boolean
+  opened_date: date

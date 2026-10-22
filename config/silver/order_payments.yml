@@ -1,0 +1,35 @@
+# Thanh toán — luật PAY-01, PAY-03 (PAY-02 đối soát với orders làm ở bước đối soát, phần 3b)
+dataset: order_payments
+group: sales
+order: 32
+kind: daily
+source: order_payments
+target: order_payments
+key: [order_id, payment_sequential]
+columns:
+  order_id: bigint
+  payment_sequential: int
+  payment_type: string
+  payment_amount: bigint
+  payment_status: string
+  paid_at: timestamp_vn
+
+rules:
+  - id: PAY-01
+    desc: payment_type ngoài danh mục -> 'unknown'
+    dimension: Validity
+    severity: Low
+    when: "payment_type IS NULL OR payment_type NOT IN ('cod', 'bank_transfer', 'e_wallet', 'card', 'cash', 'platform_voucher')"
+    action: fix
+    fix: {payment_type: "'unknown'"}
+  - id: PAY-03
+    desc: Số tiền ≤ 0 -> gắn cờ, loại khỏi tổng hợp doanh thu
+    dimension: Validity
+    severity: Medium
+    when: "payment_amount IS NULL OR payment_amount <= 0"
+    action: flag
+    flag: is_invalid_amount
+
+dedupe:
+  key: [order_id, payment_sequential]
+  order_by: "_ingested_at DESC"

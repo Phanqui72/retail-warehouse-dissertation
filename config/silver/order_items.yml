@@ -1,0 +1,80 @@
+# Dòng đơn hàng — luật ITM-01..07. Chạy SAU orders (ITM-01 tra bảng silver.orders)
+dataset: order_items
+group: sales
+order: 31
+kind: daily
+source: order_items
+target: order_items
+key: [order_product_id]
+version_col: order_updated_at
+columns:
+  order_id: bigint
+  order_product_id: bigint
+  product_id: bigint
+  product_code: string
+  quantity: int
+  original_price: bigint
+  unit_price: bigint
+  total_amount: bigint
+  line_discount_amount: bigint
+  avg_cost: bigint
+  partial_return_status: int
+  order_updated_at: timestamp_vn
+
+lookups:
+  ord: {table: orders, src: order_id, broadcast: false}
+  prd: {table: products, src: product_id, select: [import_price]}
+
+rules:
+  - id: ITM-01
+    desc: order_id không có trong orders (đơn bị xóa ở nguồn) -> quarantine
+    dimension: Integrity
+    severity: High
+    when: "__ord_hit IS NULL"
+    action: quarantine
+  - id: ITM-03
+    desc: Số lượng ≤ 0 -> quarantine
+    dimension: Validity
+    severity: High
+    when: "quantity IS NULL OR quantity <= 0"
+    action: quarantine
+  - id: ITM-05
+    desc: product_code viết thường / thừa khoảng trắng -> UPPER(TRIM())
+    dimension: Consistency
+    severity: Low
+    when: "product_code <> upper(trim(product_code))"
+    action: fix
+    fix: {product_code: "upper(trim(product_code))"}
+  - id: ITM-02
+    desc: product_id không có trong products -> gắn cờ (Gold map về -1)
+    dimension: Integrity
+    severity: High
+    when: "__prd_hit IS NULL"
+    action: flag
+    flag: is_unknown_product
+  - id: ITM-04
+    desc: Giá vốn rỗng/≤0/quá 3 lần giá bán -> lấy import_price của products + gắn cờ
+    dimension: Accuracy
+    severity: Medium
+    when: "avg_cost IS NULL OR avg_cost <= 0 OR avg_cost > unit_price * 3"
+    action: fix+flag
+    fix: {avg_cost: "__prd_import_price"}
+    flag: is_cost_anomaly
+  - id: ITM-06
+    desc: Giá bán lớn hơn giá niêm yết -> gắn cờ
+    dimension: Consistency
+    severity: Medium
+    when: "unit_price > original_price"
+    action: flag
+    flag: is_price_anomaly
+  - id: ITM-07
+    desc: total_amount ≠ quantity × unit_price − line_discount_amount -> tính lại
+    dimension: Accuracy
+    severity: Medium
+    when: "total_amount IS NULL OR total_amount <> quantity * unit_price - COALESCE(line_discount_amount, 0)"
+    action: fix
+    fix: {total_amount: "quantity * unit_price - COALESCE(line_discount_amount, 0)"}
+
+dedupe:
+  key: [order_product_id]
+  order_by: "order_updated_at DESC, _ingested_at DESC"

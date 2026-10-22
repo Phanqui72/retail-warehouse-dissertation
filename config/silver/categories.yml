@@ -1,0 +1,11 @@
+dataset: categories
+group: master
+order: 16
+kind: master
+source: categories
+target: categories
+key: [category_id]
+columns:
+  category_id: int
+  category_l1: string
+  category_l2: string

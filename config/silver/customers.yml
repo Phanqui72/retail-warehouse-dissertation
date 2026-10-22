@@ -1,0 +1,58 @@
+# Khách hàng (định danh giả danh) — luật CUS-01..03
+dataset: customers
+group: sales
+order: 34
+kind: daily
+source: customers
+target: customers
+key: [customer_id]
+columns:
+  customer_id: string
+  customer_unique_id: string
+  customer_province_code: string
+  customer_province_name_raw: string
+  first_seen_channel: string
+
+# tên tỉnh viết tắt / không dấu -> mã tỉnh (bổ sung cho việc so khớp theo tên chuẩn trong geolocation)
+dictionaries:
+  province_alias:
+    "hcm": "79"
+    "tp.hcm": "79"
+    "hồ chí minh": "79"
+    "ho chi minh city": "79"
+    "sài gòn": "79"
+    "hn": "01"
+    "ha noi": "01"
+    "hai phong": "31"
+    "da nang": "48"
+    "br-vt": "77"
+    "bà rịa vũng tàu": "77"
+    "huế": "46"
+    "tt huế": "46"
+
+lookups:
+  geo:   {table: geolocation, src: customer_province_code, ref: province_code}
+  gname: {table: geolocation, src: "lower(trim(regexp_replace(customer_province_name_raw, '^(?i)(tp\\\\.?|thành phố|tỉnh)\\\\s+', '')))", ref: "lower(province_name)", select: [province_code]}
+  alias: {dict: province_alias, src: "lower(trim(customer_province_name_raw))"}
+
+rules:
+  - id: CUS-01
+    desc: customer_unique_id viết hoa / thừa khoảng trắng -> LOWER(TRIM())
+    dimension: Consistency
+    severity: Medium
+    when: "customer_unique_id <> lower(trim(customer_unique_id))"
+    action: fix
+    fix: {customer_unique_id: "lower(trim(customer_unique_id))"}
+  - id: CUS-02
+    desc: Mã tỉnh rỗng / không tồn tại -> suy ra từ tên tỉnh, không được thì -1
+    dimension: Completeness
+    severity: Low
+    when: "customer_province_code IS NULL OR __geo_hit IS NULL"
+    action: fix
+    fix: {customer_province_code: "COALESCE(__gname_province_code, __alias_v, '-1')"}
+
+dedupe:
+  exact_rule: CUS-03
+  severity: Low
+  key: [customer_id]
+  order_by: "_ingested_at DESC"

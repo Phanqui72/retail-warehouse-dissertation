@@ -1,0 +1,117 @@
+# Danh mục sản phẩm — luật PRD-01..06 theo file đặc tả lỗi
+dataset: products
+group: master
+order: 20
+kind: master
+source: products
+target: products
+key: [product_id]
+columns:
+  product_id: bigint
+  product_code: string
+  barcode: string
+  product_name: string
+  product_type_code: int
+  product_status_code: int
+  parent_code: string
+  parent_name: string
+  brand_id: int
+  category_id: int
+  attr_color: string
+  attr_material: string
+  attr_shape: string
+  attr_size: string
+  attr_pack_qty: int
+  retail_price: bigint
+  import_price: bigint
+  avg_cost: bigint
+  wholesale_price: bigint
+  weight_gram: int
+  created_at: timestamp_vn
+  updated_at: timestamp_vn
+  discontinued_date: date
+
+# từ điển chuẩn hóa màu: khóa = giá trị đã LOWER(TRIM()), giá trị = tên màu chuẩn
+dictionaries:
+  colors:
+    "trắng": "Trắng"
+    "trang": "Trắng"
+    "white": "Trắng"
+    "hồng phấn": "Hồng phấn"
+    "hong phan": "Hồng phấn"
+    "hồng": "Hồng"
+    "hong": "Hồng"
+    "pink": "Hồng"
+    "đen": "Đen"
+    "black": "Đen"
+    "bạc": "Bạc"
+    "silver": "Bạc"
+    "be": "Be"
+    "beige": "Be"
+    "vàng hồng": "Vàng hồng"
+    "rose gold": "Vàng hồng"
+    "xanh": "Xanh"
+    "xanh mint": "Xanh mint"
+    "tím pastel": "Tím pastel"
+    "cam đào": "Cam đào"
+    "kem": "Kem"
+    "nâu": "Nâu"
+
+lookups:
+  color: {dict: colors, src: "lower(trim(attr_color))"}
+  cat: {table: categories, src: category_id, ref: category_id}
+
+rules:
+  - id: PRD-02
+    desc: Màu viết không chuẩn (White, trắng, Hong phan…) -> chuẩn hóa theo từ điển
+    dimension: Consistency
+    severity: Medium
+    max_fail_rate: 0.2
+    when: "attr_color IS NOT NULL AND __color_hit AND attr_color <> __color_v"
+    action: fix
+    fix: {attr_color: "__color_v"}
+  - id: PRD-02B
+    desc: Màu không có trong từ điển (cần bổ sung từ điển)
+    dimension: Validity
+    severity: Low
+    when: "attr_color IS NOT NULL AND __color_hit IS NULL"
+    action: flag
+    flag: is_unknown_color
+  - id: PRD-03
+    desc: Thiếu category_id -> lấy theo SKU cùng parent_code, không có thì -1 (Chưa phân loại)
+    dimension: Completeness
+    severity: Medium
+    max_fail_rate: 0.05
+    when: "category_id IS NULL OR __cat_hit IS NULL"
+    action: fix
+    fix: {category_id: "COALESCE(first(category_id, true) OVER (PARTITION BY parent_code), -1)"}
+  - id: PRD-04
+    desc: Giá bán lẻ thấp hơn giá nhập -> gắn cờ, cảnh báo phòng kinh doanh
+    dimension: Accuracy
+    severity: High
+    max_fail_rate: 0.02
+    when: "retail_price < import_price"
+    action: flag
+    flag: is_price_anomaly
+  - id: PRD-05
+    desc: Khối lượng ≤ 0 -> lấy trung vị theo parent_code
+    dimension: Validity
+    severity: Low
+    when: "weight_gram IS NULL OR weight_gram <= 0"
+    action: fix
+    fix: {weight_gram: "CAST(percentile_approx(CASE WHEN weight_gram > 0 THEN weight_gram END, 0.5) OVER (PARTITION BY parent_code) AS INT)"}
+  - id: PRD-06
+    desc: Tên có khoảng trắng thừa / emoji (ký hiệu loại So) -> làm sạch
+    dimension: Consistency
+    severity: Low
+    when: "product_name <> trim(regexp_replace(regexp_replace(product_name, '[\\\\p{So}\\\\x{FE0F}]', ''), '\\\\s+', ' '))"
+    action: fix
+    fix: {product_name: "trim(regexp_replace(regexp_replace(product_name, '[\\\\p{So}\\\\x{FE0F}]', ''), '\\\\s+', ' '))"}
+
+# PRD-01: SKU trùng sau UPPER(TRIM(product_code)) -> giữ product_id nhỏ nhất (bản gốc), ghi bảng ánh xạ
+dedupe:
+  key: ["upper(trim(product_code))"]
+  order_by: "product_id ASC"
+  rule: PRD-01
+  severity: High
+  mapping: {table: product_id_map, from: product_id}

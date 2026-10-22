@@ -1,0 +1,21 @@
+# Lịch sử trạng thái — HIS-01 (trùng). HIS-02/HIS-03 cần toàn bộ lịch sử của đơn -> bước đối soát (phần 3b)
+dataset: order_status_history
+group: sales
+order: 33
+kind: daily
+source: order_status_history
+target: order_status_history
+key: [order_id, status_code, changed_at]
+on_match: ignore                 # sự kiện đã có thì giữ nguyên (chỉ thêm sự kiện mới)
+partition: months(changed_at)
+columns:
+  order_id: bigint
+  status_code: int
+  changed_at: timestamp_vn
+  changed_by: string
+
+dedupe:
+  exact_rule: HIS-01
+  severity: Low
+  key: [order_id, status_code, changed_at]
+  order_by: "_ingested_at DESC"

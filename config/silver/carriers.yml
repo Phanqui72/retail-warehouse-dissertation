@@ -1,0 +1,11 @@
+dataset: carriers
+group: master
+order: 15
+kind: master
+source: carriers
+target: carriers
+key: [carrier_id]
+columns:
+  carrier_id: int
+  carrier_name: string
+  carrier_short_name: string

@@ -1,0 +1,16 @@
+dataset: channels_shops
+group: master
+order: 13
+kind: master
+source: channels_shops
+target: channels_shops
+key: [shop_code]
+columns:
+  shop_code: string
+  sale_channel: int
+  platform: string
+  channel_name: string
+  shop_name: string
+  is_marketplace: boolean
+  opened_date: date
+  closed_date: date

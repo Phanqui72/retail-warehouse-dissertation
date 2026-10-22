@@ -1,0 +1,11 @@
+dataset: brands
+group: master
+order: 17
+kind: master
+source: brands
+target: brands
+key: [brand_id]
+columns:
+  brand_id: int
+  brand_name: string
+  positioning: string

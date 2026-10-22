@@ -1,0 +1,11 @@
+dataset: order_reasons
+group: master
+order: 11
+kind: master
+source: order_reasons
+target: order_reasons
+key: [reason_code]
+columns:
+  reason_code: int
+  reason_name: string
+  reason_type: string

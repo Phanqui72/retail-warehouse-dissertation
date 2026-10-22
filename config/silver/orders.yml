@@ -1,0 +1,113 @@
+# Đơn hàng — luật ORD-01..10 (ORD-06 đối soát tiền với order_items làm ở bước đối soát, phần 3b)
+dataset: orders
+group: sales
+order: 30
+kind: daily
+source: orders
+target: orders
+key: [order_id]
+version_col: updated_at          # MERGE: chỉ ghi đè khi bản mới có updated_at ≥ bản đang có
+partition: months(order_date)
+columns:
+  order_id: bigint
+  customer_id: string
+  marketplace_order_sn: string
+  order_type_code: int
+  order_mode_code: int
+  status_code: int
+  reason_code: int
+  original_order_id: bigint
+  depot_id: int
+  sale_channel: int
+  shop_code: string
+  carrier_id: int
+  created_at: timestamp_vn
+  packed_at: timestamp_vn
+  delivered_at: timestamp_vn
+  updated_at: timestamp_vn
+  order_date: date
+  delivered_date: date
+  cod_amount: bigint
+  business_payment_amount: bigint
+  order_discount_amount: bigint
+  transfer_amount: bigint
+  deposit_amount: bigint
+  ecom_fee_amount: bigint
+  cod_fee_amount: bigint
+  customer_ship_fee_amount: bigint
+  ship_fee_amount: bigint
+  return_fee_amount: bigint
+  weight_gram: int
+  province_code: string
+  province_name_raw: string
+  gift_count: int
+  voucher_code: string           # có từ 01/07/2025 (FILE-03); trước đó NULL
+
+lookups:
+  st:  {table: order_status, src: status_code}
+  geo: {table: geolocation, src: province_code, select: [province_name]}
+
+rules:
+  - id: ORD-05
+    desc: created_at sai định dạng (ISO-UTC 'Z' hoặc dd/MM/yyyy) — đã quy đổi về giờ VN khi ép kiểu
+    dimension: Consistency
+    severity: High
+    max_fail_rate: 0.02
+    when: "`__raw_created_at` IS NOT NULL AND NOT `__raw_created_at` RLIKE '^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$' AND created_at IS NOT NULL"
+    action: count
+  - id: ORD-10
+    desc: Ngày tạo sau ngày chốt dữ liệu -> quarantine
+    dimension: Validity
+    severity: High
+    when: "created_at > timestamp '${DATA_CUTOFF_DATE} 23:59:59'"
+    action: quarantine
+  - id: ORD-02
+    desc: Mã trạng thái ngoài danh mục -> -1 (Không xác định)
+    dimension: Validity
+    severity: Medium
+    when: "status_code IS NOT NULL AND __st_hit IS NULL"
+    action: fix
+    fix: {status_code: "-1"}
+  - id: ORD-03
+    desc: delivered_at sớm hơn created_at -> đặt NULL + gắn cờ
+    dimension: Consistency
+    severity: High
+    when: "delivered_at < created_at"
+    action: fix+flag
+    fix: {delivered_at: "CAST(NULL AS timestamp)", delivered_date: "CAST(NULL AS date)"}
+    flag: is_time_anomaly
+  - id: ORD-04
+    desc: Tên tỉnh rỗng / 'null' / 'N/A' -> lấy theo province_code
+    dimension: Completeness
+    severity: Low
+    when: "province_name_raw IS NULL OR trim(province_name_raw) IN ('', 'null', 'N/A')"
+    action: fix
+    fix: {province_name_raw: "COALESCE(__geo_province_name, 'Không xác định')"}
+  - id: ORD-07
+    desc: Phí vận chuyển âm -> ABS nếu ≤ 500.000đ, ngược lại NULL
+    dimension: Validity
+    severity: Medium
+    when: "ship_fee_amount < 0"
+    action: fix
+    fix: {ship_fee_amount: "CASE WHEN abs(ship_fee_amount) <= 500000 THEN abs(ship_fee_amount) END"}
+  - id: ORD-08
+    desc: Đơn đang/đã giao thiếu hãng vận chuyển -> -1
+    dimension: Completeness
+    severity: Medium
+    when: "status_code IN (59, 60, 71, 72, 74) AND carrier_id IS NULL"
+    action: fix
+    fix: {carrier_id: "-1"}
+  - id: ORD-09
+    desc: order_date ≠ DATE(created_at) giờ VN -> tính lại
+    dimension: Consistency
+    severity: Medium
+    when: "created_at IS NOT NULL AND (order_date IS NULL OR order_date <> to_date(created_at))"
+    action: fix
+    fix: {order_date: "to_date(created_at)"}
+
+# ORD-01: dòng trùng hoàn toàn; sau đó mỗi order_id giữ bản updated_at mới nhất (đơn được gửi lại khi đổi trạng thái)
+dedupe:
+  exact_rule: ORD-01
+  severity: High
+  key: [order_id]
+  order_by: "updated_at DESC, _ingested_at DESC"

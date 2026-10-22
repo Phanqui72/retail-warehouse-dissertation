@@ -11,5 +11,7 @@ ADD https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-aws/3.3.4/hadoop-aws
 ADD https://repo1.maven.org/maven2/com/amazonaws/aws-java-sdk-bundle/1.12.262/aws-java-sdk-bundle-1.12.262.jar /opt/spark/jars/
 RUN chmod 644 /opt/spark/jars/*.jar
 
+RUN pip3 install --no-cache-dir pyyaml==6.0.2
+
 ENV PYSPARK_PYTHON=python3
 WORKDIR /opt/jobs

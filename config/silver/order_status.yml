@@ -1,0 +1,18 @@
+# Danh mục trạng thái đơn hàng (full snapshot)
+dataset: order_status
+group: master
+order: 10
+kind: master
+source: order_status
+target: order_status
+key: [status_code]
+columns:
+  status_code: int
+  status_name: string
+  status_group: string
+  is_demand: int
+  is_net_sale: int
+  is_delivered: int
+  is_cancelled: int
+  is_returned: int
+  is_final: int

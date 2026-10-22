@@ -1,0 +1,7 @@
+# Ngưỡng tỷ lệ vi phạm tối đa theo mức độ nghiêm trọng (mặc định cho mọi luật; luật có thể ghi đè bằng max_fail_rate).
+# Nguồn: file yêu cầu chất lượng dữ liệu (THRESHOLDS) — Validity ≥ 99,9%, Completeness ≥ 99,5% / 98% / 95%.
+max_fail_rate:
+  Critical: 0.0
+  High: 0.005
+  Medium: 0.02
+  Low: 0.05

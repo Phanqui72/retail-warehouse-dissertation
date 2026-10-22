@@ -1,0 +1,14 @@
+# 63 tỉnh thành (địa giới cũ)
+dataset: geolocation
+group: master
+order: 12
+kind: master
+source: geolocation
+target: geolocation
+key: [province_code]
+columns:
+  province_code: string
+  province_name: string
+  province_type: string
+  region: string
+  economic_region: string

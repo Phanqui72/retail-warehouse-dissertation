@@ -108,6 +108,7 @@ services:
       - spark-submit
     volumes:
       - ./jobs:/opt/jobs:ro
+      - ./config:/opt/config:ro          # cấu hình YAML của Silver (SILVER_CONFIG_DIR)
     ports: ["4041:4040"]
     depends_on:
       iceberg-rest: {condition: service_started}
