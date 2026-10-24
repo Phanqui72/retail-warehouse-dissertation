@@ -129,6 +129,21 @@ services:
     profiles: ["jobs"]
     restart: "no"
 
+  # ---------------------------------------------------------------- (P4) dbt: Silver -> Gold trên Trino, chạy theo lệnh
+  dbt:
+    build: {context: ., dockerfile: docker/dbt/Dockerfile}
+    image: vnb/dbt:1.10.6
+    <<: *env
+    entrypoint: ["dbt"]
+    working_dir: /usr/app/dbt
+    volumes:
+      - ./dbt:/usr/app/dbt              # project dbt; dbt ghi target/ và logs/ vào đây
+    ports: ["8085:8080"]                # trang tài liệu dbt docs (chỉ mở khi chạy kèm --service-ports)
+    depends_on:
+      trino: {condition: service_started}
+    profiles: ["jobs"]
+    restart: "no"
+    
 volumes:
   pg_data:
   minio_data:

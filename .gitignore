@@ -20,3 +20,7 @@ __pycache__/
 logs/
 docs/
 report/
+
+# --- dbt (phần 4) ---
+dbt/target/
+dbt/logs/

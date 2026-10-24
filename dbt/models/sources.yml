@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: silver
+    description: "Lớp Silver do job Spark silver_load.py tạo (phần 3)"
+    database: "{{ env_var('TRINO_CATALOG') }}"
+    schema: "{{ env_var('SILVER_NAMESPACE') }}"
+    tables:
+      - name: orders
+      - name: order_items
+      - name: order_payments
+      - name: order_status_history
+      - name: customers
+      - name: products
+      - name: product_id_map
+      - name: brands
+      - name: categories
+      - name: channels_shops
+      - name: geolocation
+      - name: order_status
+      - name: order_reasons
+      - name: carriers
+      - name: warehouses

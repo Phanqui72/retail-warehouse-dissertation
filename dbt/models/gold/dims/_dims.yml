@@ -1,0 +1,56 @@
+version: 2
+
+models:
+  - name: dim_date
+    description: "Lịch ngày GOLD_DATE_START → GOLD_DATE_END; date_key = yyyymmdd, -1 = không xác định"
+    columns:
+      - name: date_key
+        data_tests: [unique, not_null]
+
+  - name: dim_product
+    description: "Sản phẩm hiện tại (snapshot mới nhất) + thương hiệu + danh mục; -1 = không xác định"
+    columns:
+      - name: product_id
+        data_tests: [unique, not_null]
+
+  - name: dim_customer
+    description: "Khách hàng (định danh giả danh) + tỉnh/vùng; '-1' = không xác định"
+    columns:
+      - name: customer_id
+        data_tests: [unique, not_null]
+      - name: province_code
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_geography'), field: province_code}}
+
+  - name: dim_geography
+    description: "63 tỉnh/thành (địa giới cũ) + vùng, vùng kinh tế"
+    columns:
+      - name: province_code
+        data_tests: [unique, not_null]
+
+  - name: dim_channel_shop
+    description: "Kênh bán (sàn TMĐT, website…) và gian hàng"
+    columns:
+      - name: shop_code
+        data_tests: [unique, not_null]
+
+  - name: dim_order_status
+    description: "Trạng thái đơn + nhóm trạng thái + các cờ phân loại của nguồn"
+    columns:
+      - name: status_code
+        data_tests: [unique, not_null]
+
+  - name: dim_order_reason
+    columns:
+      - name: reason_code
+        data_tests: [unique, not_null]
+
+  - name: dim_carrier
+    columns:
+      - name: carrier_id
+        data_tests: [unique, not_null]
+
+  - name: dim_warehouse
+    columns:
+      - name: depot_id
+        data_tests: [unique, not_null]
