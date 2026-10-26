@@ -1,0 +1,21 @@
+# Project dbt cho lớp Gold (phần 4). Chạy trong container: docker compose run --rm dbt <lệnh>
+name: vnb_lakehouse
+version: "1.0.0"
+config-version: 2
+profile: vnb_lakehouse
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+test-paths: ["tests"]
+target-path: "target"
+clean-targets: ["target"]
+
+flags:
+  require_certificate_validation: true   # hành vi mới của dbt-trino (tắt cảnh báo SSL); kết nối nội bộ dùng http nên không ảnh hưởng
+models:
+  vnb_lakehouse:
+    staging:
+      +materialized: ephemeral          # chỉ là CTE dùng chung, không tạo bảng
+    gold:
+      +materialized: table              # dựng lại toàn bộ mỗi lần chạy (dữ liệu nhỏ, vài phút)
+      +on_table_exists: replace         # CREATE OR REPLACE TABLE -> giữ lịch sử snapshot Iceberg của bảng Gold

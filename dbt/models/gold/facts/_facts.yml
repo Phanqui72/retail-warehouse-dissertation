@@ -1,0 +1,73 @@
+version: 2
+
+models:
+  - name: fact_orders
+    description: "1 dòng = 1 đơn hàng, mọi trạng thái; số tiền gốc của đơn + tổng hợp từ dòng đơn"
+    columns:
+      - name: order_id
+        data_tests: [unique, not_null]
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_customer'), field: customer_id}}
+      - name: shop_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_channel_shop'), field: shop_code}}
+      - name: province_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_geography'), field: province_code}}
+      - name: status_code
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_order_status'), field: status_code}}
+      - name: reason_code
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_order_reason'), field: reason_code}}
+      - name: carrier_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_carrier'), field: carrier_id}}
+      - name: depot_id
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_warehouse'), field: depot_id}}
+      - name: order_date_key
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+      - name: delivered_date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+
+  - name: fact_order_items
+    description: "1 dòng = 1 dòng đơn hàng (SKU trong đơn); mang theo khóa của đơn"
+    columns:
+      - name: order_product_id
+        data_tests: [unique, not_null]
+      - name: order_id
+        data_tests:
+          - relationships: {arguments: {to: ref('fact_orders'), field: order_id}}
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships: {arguments: {to: ref('dim_product'), field: product_id}}
+      - name: order_date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+
+  - name: fact_order_payments
+    description: "1 dòng = 1 lần thanh toán (order_id, payment_sequential)"
+    columns:
+      - name: paid_date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
+
+  - name: fact_order_status_events
+    description: "1 dòng = 1 lần đơn đổi trạng thái; event_seq, previous_status_code"
+    columns:
+      - name: status_code
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_order_status'), field: status_code}}
+      - name: changed_date_key
+        data_tests:
+          - relationships: {arguments: {to: ref('dim_date'), field: date_key}}
