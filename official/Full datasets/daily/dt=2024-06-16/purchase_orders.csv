@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10107,PO2406-10107-02,501,2,30006,MTN-HL-01,310,11847,2024-06-05,2024-06-12,2024-06-16,294,received
+PO2406-10107,PO2406-10107-03,501,2,30007,MTN-HL-02,220,11460,2024-06-05,2024-06-12,2024-06-16,220,received
+PO2406-10107,PO2406-10107-04,501,2,30012,MTN-HY-02,30,22320,2024-06-05,2024-06-12,2024-06-16,30,received

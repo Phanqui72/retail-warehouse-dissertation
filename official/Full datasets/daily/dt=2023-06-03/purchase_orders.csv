@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2305-9704,PO2305-9704-01,503,2,30055,BT-TB-01,230,7285,2023-05-10,2023-05-31,2023-06-03,230,received
+PO2305-9704,PO2305-9704-02,503,2,30057,BT-TB-03,110,7415,2023-05-10,2023-05-31,2023-06-03,110,received
+PO2305-9704,PO2305-9704-03,503,2,30059,BD-RM-02,170,9927,2023-05-10,2023-05-31,2023-06-03,170,received
+PO2305-9704,PO2305-9704-04,503,2,30077,GU-CT-01,110,14454,2023-05-10,2023-05-31,2023-06-03,110,received

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2301-9583,PO2301-9583-01,502,1,30030,BC-12-03,60,184177,2023-01-11,2023-02-05,2023-02-03,60,received

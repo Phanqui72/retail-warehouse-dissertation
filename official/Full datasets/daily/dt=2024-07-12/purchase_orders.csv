@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10114,PO2406-10114-01,502,1,30070,NRC-VS-01,100,28043,2024-06-12,2024-07-07,2024-07-12,100,received
+PO2406-10120,PO2406-10120-01,502,1,30021,CM-XE-02,130,26660,2024-06-19,2024-07-14,2024-07-12,130,received

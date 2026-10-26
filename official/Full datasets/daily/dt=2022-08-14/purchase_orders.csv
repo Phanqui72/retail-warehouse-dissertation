@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2207-9417,PO2207-9417-01,502,2,30019,CP-PP-02,90,46565,2022-07-20,2022-08-14,2022-08-14,80,received
+PO2208-9428,PO2208-9428-01,501,1,30002,MTN-GN-02,210,15026,2022-08-03,2022-08-10,2022-08-14,210,received
+PO2208-9428,PO2208-9428-02,501,1,30006,MTN-HL-01,110,11265,2022-08-03,2022-08-10,2022-08-14,110,received

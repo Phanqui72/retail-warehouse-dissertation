@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2022-04-09",
+ "source": "oms_extract_sim",
+ "generated_at": "2022-04-10T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 201,
+   "bytes": 38982,
+   "md5": "73d15e1182a5e56991a78a66b6e904b5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 141,
+   "bytes": 11950,
+   "md5": "ca6ff0a8fcff458aa90c1073f13d2557",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 105,
+   "bytes": 5373,
+   "md5": "a28157ab521ed668c8fd8c1659c6f9bb",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 586,
+   "bytes": 22690,
+   "md5": "49d67dd6826110be051915cf321b8250",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 101,
+   "bytes": 7473,
+   "md5": "444f1697fd835f4cfaf4eb90b46b84bd",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 26,
+   "bytes": 4589,
+   "md5": "c689271b3aee8ff889afdfddae731932",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 93,
+   "bytes": 8896,
+   "md5": "1fcf7bd1b02151fc7d8f090e50e62918",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 134,
+   "bytes": 5569,
+   "md5": "e56bdd31dac52c89a707c9dbf6de4494",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 72,
+   "bytes": 10000,
+   "md5": "cd2b97fb192cfe0e8cd0309b5454b480",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 9,
+   "bytes": 662,
+   "md5": "07c88c04bde728c320dfaaa09d795bdd",
+   "schema_version": "v1"
+  }
+ ]
+}

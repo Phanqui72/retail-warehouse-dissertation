@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2411-10292,PO2411-10292-01,501,1,30008,MTN-HL-03,140,11697,2024-11-20,2024-11-27,2024-11-29,140,received
+PO2411-10292,PO2411-10292-02,501,1,30034,BP-TR-02,130,7023,2024-11-20,2024-11-27,2024-11-29,130,received

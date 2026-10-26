@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2511-10666,PO2511-10666-01,501,2,30003,MTN-GN-03,530,16826,2025-11-19,2025-11-26,2025-11-29,530,received
+PO2511-10666,PO2511-10666-02,501,2,30004,MTN-GN-04,430,16077,2025-11-19,2025-11-26,2025-11-29,376,received

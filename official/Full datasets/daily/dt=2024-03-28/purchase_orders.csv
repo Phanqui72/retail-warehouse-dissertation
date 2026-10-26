@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2403-10026,PO2403-10026-01,501,2,30036,BP-TG-01,280,9536,2024-03-20,2024-03-27,2024-03-28,269,received

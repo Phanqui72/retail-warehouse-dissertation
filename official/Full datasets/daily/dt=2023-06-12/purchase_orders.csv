@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2305-9706,PO2305-9706-01,502,1,30016,CN-KB-01,70,53311,2023-05-17,2023-06-11,2023-06-12,70,received
+PO2305-9706,PO2305-9706-02,502,1,30017,CN-KB-02,50,53314,2023-05-17,2023-06-11,2023-06-12,50,received
+PO2305-9706,PO2305-9706-03,502,1,30021,CM-XE-02,110,26329,2023-05-17,2023-06-11,2023-06-12,110,received
+PO2305-9706,PO2305-9706-04,502,1,30028,BC-12-01,170,182676,2023-05-17,2023-06-11,2023-06-12,170,received

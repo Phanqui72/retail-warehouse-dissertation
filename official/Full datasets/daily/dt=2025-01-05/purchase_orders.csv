@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2412-10317,PO2412-10317-01,502,2,30024,CM-DT-01,70,15863,2024-12-11,2025-01-05,2025-01-05,70,received
+PO2412-10317,PO2412-10317-02,502,2,30072,TRC-SL-01,330,15126,2024-12-11,2025-01-05,2025-01-05,330,received
+PO2412-10317,PO2412-10317-03,502,2,30074,GPC-CO-01,110,22385,2024-12-11,2025-01-05,2025-01-05,110,received

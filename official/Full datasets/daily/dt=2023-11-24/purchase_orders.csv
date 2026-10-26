@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2311-9893,PO2311-9893-01,503,2,30045,DC-MY-02,270,12287,2023-11-01,2023-11-22,2023-11-24,270,received
+PO2311-9893,PO2311-9893-02,503,2,30066,KT-CC-01,420,6165,2023-11-01,2023-11-22,2023-11-24,420,received
+PO2311-9893,PO2311-9893-03,503,2,30075,GU-LED-01,110,134759,2023-11-01,2023-11-22,2023-11-24,110,received

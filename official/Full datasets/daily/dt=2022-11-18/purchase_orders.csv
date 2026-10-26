@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2210-9514,PO2210-9514-01,502,1,30020,CM-XE-01,60,24734,2022-10-26,2022-11-20,2022-11-18,60,received
+PO2210-9514,PO2210-9514-02,502,1,30026,BC-M5-01,50,72822,2022-10-26,2022-11-20,2022-11-18,46,received
+PO2210-9514,PO2210-9514-03,502,1,30073,TRC-SL-02,40,14366,2022-10-26,2022-11-20,2022-11-18,34,received

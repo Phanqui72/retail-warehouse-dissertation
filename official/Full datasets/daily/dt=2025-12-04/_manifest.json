@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2025-12-04",
+ "source": "oms_extract_sim",
+ "generated_at": "2025-12-05T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 497,
+   "bytes": 98274,
+   "md5": "0d4549bbbb42d19c412d3abe80ec6651",
+   "schema_version": "v2"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 364,
+   "bytes": 30584,
+   "md5": "d5764f75ba902baa85bdc094beb01b70",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 237,
+   "bytes": 12610,
+   "md5": "661d6a203c203e09e6db40ec2cad28a9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 1407,
+   "bytes": 54931,
+   "md5": "eaeb41b5d6d77b8043243336cc0ee3ed",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 227,
+   "bytes": 16594,
+   "md5": "a9156431d30e24bb980c6bc6f9e50750",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 78,
+   "bytes": 12669,
+   "md5": "62dc8e91c8a09a905a62b8ffc06c26b0",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 225,
+   "bytes": 21361,
+   "md5": "fd54c2f7e3ba87ed67d751fcc116c5b5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 261,
+   "bytes": 11428,
+   "md5": "3fdd33cafd4d8abe9a9d4bf526145374",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 163,
+   "bytes": 22915,
+   "md5": "8d1c0fe8af8b9f55d28f3093fcba1496",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 12,
+   "bytes": 873,
+   "md5": "e3de8f2bf8cc500211306c39a9db669d",
+   "schema_version": "v1"
+  }
+ ]
+}

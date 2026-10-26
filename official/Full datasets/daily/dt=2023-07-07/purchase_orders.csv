@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2306-9750,PO2306-9750-01,501,1,30001,MTN-GN-01,390,15477,2023-06-28,2023-07-05,2023-07-07,390,received
+PO2306-9750,PO2306-9750-03,501,1,30037,BP-TG-02,20,10089,2023-06-28,2023-07-05,2023-07-07,20,received

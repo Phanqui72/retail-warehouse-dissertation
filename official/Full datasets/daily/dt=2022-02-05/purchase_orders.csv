@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2201-9247,PO2201-9247-01,502,2,30019,CP-PP-02,100,45098,2022-01-12,2022-02-06,2022-02-05,100,received
+PO2201-9247,PO2201-9247-02,502,2,30020,CM-XE-01,110,25104,2022-01-12,2022-02-06,2022-02-05,110,received
+PO2201-9247,PO2201-9247-03,502,2,30030,BC-12-03,90,171868,2022-01-12,2022-02-06,2022-02-05,90,received

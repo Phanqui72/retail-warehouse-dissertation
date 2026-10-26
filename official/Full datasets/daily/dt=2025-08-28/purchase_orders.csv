@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2508-10553,PO2508-10553-01,503,2,30042,NH-MY-01,350,14185,2025-08-06,2025-08-27,2025-08-28,350,received
+PO2508-10553,PO2508-10553-02,503,2,30080,TU-MP-01,180,50024,2025-08-06,2025-08-27,2025-08-28,180,received
+PO2508-10553,PO2508-10553-03,503,2,30082,TU-MP-03,50,72802,2025-08-06,2025-08-27,2025-08-28,50,received

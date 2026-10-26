@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2201-9258,PO2201-9258-01,503,1,30055,BT-TB-01,50,6981,2022-01-26,2022-02-16,2022-02-17,50,received
+PO2201-9258,PO2201-9258-02,503,1,30067,KT-CC-02,10,5784,2022-01-26,2022-02-16,2022-02-17,10,received

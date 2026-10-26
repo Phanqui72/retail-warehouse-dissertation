@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2604-10796,PO2604-10796-01,502,1,30024,CM-DT-01,50,17249,2026-04-15,2026-05-10,2026-05-10,50,received

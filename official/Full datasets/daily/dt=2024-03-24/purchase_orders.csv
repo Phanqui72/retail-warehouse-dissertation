@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2402-10003,PO2402-10003-01,503,2,30040,KM-MN-01,70,19326,2024-02-28,2024-03-20,2024-03-24,70,received
+PO2402-10003,PO2402-10003-02,503,2,30055,BT-TB-01,200,7385,2024-02-28,2024-03-20,2024-03-24,200,received
+PO2402-10003,PO2402-10003-03,503,2,30058,BD-RM-01,240,10029,2024-02-28,2024-03-20,2024-03-24,240,received

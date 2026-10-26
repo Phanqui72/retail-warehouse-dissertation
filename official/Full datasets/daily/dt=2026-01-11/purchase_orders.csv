@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2512-10696,PO2512-10696-01,503,1,30039,KM-IN-02,120,36042,2025-12-17,2026-01-07,2026-01-11,108,received
+PO2512-10696,PO2512-10696-02,503,1,30043,NH-MY-02,60,14453,2025-12-17,2026-01-07,2026-01-11,60,received
+PO2512-10696,PO2512-10696-03,503,1,30084,HD-CO-01,70,18897,2025-12-17,2026-01-07,2026-01-11,64,received

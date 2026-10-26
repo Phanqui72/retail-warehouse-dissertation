@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10106,PO2406-10106-01,503,1,30061,LC-GR-01,20,28979,2024-06-05,2024-06-26,2024-06-29,20,received
+PO2406-10106,PO2406-10106-02,503,1,30068,KT-CC-03,250,6305,2024-06-05,2024-06-26,2024-06-29,250,received
+PO2406-10106,PO2406-10106-03,503,1,30079,GU-CT-03,60,14377,2024-06-05,2024-06-26,2024-06-29,60,received

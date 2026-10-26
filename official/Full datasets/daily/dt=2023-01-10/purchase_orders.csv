@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2212-9567,PO2212-9567-01,503,2,30045,DC-MY-02,240,11718,2022-12-21,2023-01-11,2023-01-10,240,received
+PO2212-9567,PO2212-9567-02,503,2,30055,BT-TB-01,230,6817,2022-12-21,2023-01-11,2023-01-10,230,received
+PO2212-9567,PO2212-9567-03,503,2,30062,LC-GR-02,80,28611,2022-12-21,2023-01-11,2023-01-10,80,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2408-10180,PO2408-10180-01,501,2,30009,MTN-VC-01,90,30731,2024-08-07,2024-08-14,2024-08-18,90,received
+PO2408-10180,PO2408-10180-02,501,2,30033,BP-TR-01,210,7201,2024-08-07,2024-08-14,2024-08-18,210,received
+PO2408-10180,PO2408-10180-03,501,2,30034,BP-TR-02,210,7037,2024-08-07,2024-08-14,2024-08-18,205,received

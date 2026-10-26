@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2208-9430,PO2208-9430-01,503,1,30058,BD-RM-01,120,9323,2022-08-03,2022-08-24,2022-08-27,120,received
+PO2208-9430,PO2208-9430-02,503,1,30076,GU-LED-02,40,126412,2022-08-03,2022-08-24,2022-08-27,40,received
+PO2208-9430,PO2208-9430-03,503,1,30082,TU-MP-03,30,63216,2022-08-03,2022-08-24,2022-08-27,30,received

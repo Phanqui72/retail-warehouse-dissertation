@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2408-10178,PO2408-10178-01,502,1,30018,CP-PP-01,80,48272,2024-08-07,2024-09-01,2024-09-01,80,received

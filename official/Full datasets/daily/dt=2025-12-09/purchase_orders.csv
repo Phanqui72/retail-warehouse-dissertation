@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2511-10665,PO2511-10665-01,503,1,30042,NH-MY-01,460,14529,2025-11-19,2025-12-10,2025-12-09,460,received
+PO2511-10665,PO2511-10665-02,503,1,30057,BT-TB-03,150,7418,2025-11-19,2025-12-10,2025-12-09,150,received
+PO2511-10674,PO2511-10674-01,505,1,30053,GS-DA-01,200,54151,2025-11-26,2025-12-10,2025-12-09,200,received

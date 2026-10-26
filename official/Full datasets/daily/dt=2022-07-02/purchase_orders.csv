@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2206-9380,PO2206-9380-01,505,1,30051,LM-DA-01,20,71249,2022-06-15,2022-06-29,2022-07-02,20,received
+PO2206-9380,PO2206-9380-02,505,1,30053,GS-DA-01,10,48262,2022-06-15,2022-06-29,2022-07-02,10,received
+PO2206-9380,PO2206-9380-03,505,1,30054,GS-DA-02,10,49283,2022-06-15,2022-06-29,2022-07-02,10,received

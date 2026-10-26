@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2104-9029,PO2104-9029-01,503,1,30038,KM-IN-01,60,31982,2021-04-14,2021-05-05,2021-05-03,60,received
+PO2104-9029,PO2104-9029-02,503,1,30039,KM-IN-02,50,32779,2021-04-14,2021-05-05,2021-05-03,50,received
+PO2104-9029,PO2104-9029-03,503,1,30042,NH-MY-01,60,12609,2021-04-14,2021-05-05,2021-05-03,60,received
+PO2104-9029,PO2104-9029-04,503,1,30061,LC-GR-01,20,26899,2021-04-14,2021-05-05,2021-05-03,20,received

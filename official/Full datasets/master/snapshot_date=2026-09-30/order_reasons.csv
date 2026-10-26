@@ -1,0 +1,11 @@
+reason_code,reason_name,reason_type
+1,Khách đổi ý,cancel
+2,Đặt nhầm sản phẩm,cancel
+3,Thời gian giao lâu,cancel
+11,Hết hàng,cancel
+12,Quá hạn xác nhận,cancel
+13,Nghi ngờ gian lận,cancel
+21,Không nhận hàng / bom hàng,return
+22,Sản phẩm lỗi,return
+23,Sai màu / sai mẫu,return
+24,Không giống mô tả,return

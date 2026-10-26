@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2511-10670,PO2511-10670-01,503,2,30066,KT-CC-01,540,6401,2025-11-19,2025-12-10,2025-12-13,540,received
+PO2511-10670,PO2511-10670-02,503,2,30084,HD-CO-01,80,18633,2025-11-19,2025-12-10,2025-12-13,80,received

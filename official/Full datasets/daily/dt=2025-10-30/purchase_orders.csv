@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2510-10626,PO2510-10626-01,503,2,30068,KT-CC-03,400,6614,2025-10-08,2025-10-29,2025-10-30,400,received
+PO2510-10626,PO2510-10626-02,503,2,30080,TU-MP-01,180,51509,2025-10-08,2025-10-29,2025-10-30,180,received

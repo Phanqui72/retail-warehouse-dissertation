@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2510-10649,PO2510-10649-01,505,2,30051,LM-DA-01,240,77372,2025-10-29,2025-11-12,2025-11-14,240,received
+PO2510-10649,PO2510-10649-02,505,2,30053,GS-DA-01,240,55631,2025-10-29,2025-11-12,2025-11-14,240,received

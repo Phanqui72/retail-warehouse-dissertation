@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-01-08",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-01-09T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 93,
+   "bytes": 18252,
+   "md5": "ddd61111528adda302b01e89e606020f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 74,
+   "bytes": 6396,
+   "md5": "8beda2b0bf64eaf2bac269d31592f489",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 52,
+   "bytes": 2664,
+   "md5": "9c489d9eef2694adeed83c6739a5fae3",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 277,
+   "bytes": 10733,
+   "md5": "483748b635b197d5109c5730ea95eeec",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 51,
+   "bytes": 3830,
+   "md5": "765a3ddeb17f0673ccb836d04706aa16",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 4,
+   "bytes": 830,
+   "md5": "7a0b5cf0c9e85871c6324d2ec58cade4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 23,
+   "bytes": 2327,
+   "md5": "b98448705cd05b76fd8bb4cd2dd0fdb9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 50,
+   "bytes": 2092,
+   "md5": "82682d6d12162f7c9a0584c1ab73174a",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 16,
+   "bytes": 2689,
+   "md5": "3a681fdaebaeba93c0d8652d5780c798",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 484,
+   "md5": "f84684403f9672b995eb75279dd44e08",
+   "schema_version": "v1"
+  }
+ ]
+}

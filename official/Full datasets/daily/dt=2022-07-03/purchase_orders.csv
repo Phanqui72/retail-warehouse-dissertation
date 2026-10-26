@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2206-9371,PO2206-9371-01,502,1,30023,CC-KD-02,70,18919,2022-06-08,2022-07-03,2022-07-03,70,received
+PO2206-9371,PO2206-9371-02,502,1,30072,TRC-SL-01,50,14288,2022-06-08,2022-07-03,2022-07-03,50,received

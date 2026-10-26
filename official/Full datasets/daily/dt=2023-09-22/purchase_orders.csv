@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2308-9824,PO2308-9824-01,502,2,30073,TRC-SL-02,70,15034,2023-08-30,2023-09-24,2023-09-22,70,received

@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2303-9644,PO2303-9644-01,502,2,30028,BC-12-01,320,187085,2023-03-15,2023-04-09,2023-04-10,320,received
+PO2303-9644,PO2303-9644-02,502,2,30072,TRC-SL-01,210,14540,2023-03-15,2023-04-09,2023-04-10,199,received

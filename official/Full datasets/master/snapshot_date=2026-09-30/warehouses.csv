@@ -1,0 +1,5 @@
+depot_id,depot_code,warehouse_name,warehouse_role,region,province_code,is_stock_alert,opened_date
+1,HN-MAIN,Kho tổng Hà Nội,main,Bắc,01,True,2021-01-01
+2,HCM-MAIN,Kho tổng TP.HCM,main,Nam,79,True,2021-01-01
+3,HCM-FBS,Kho Fulfillment sàn (TP.HCM),marketplace_fulfillment,Nam,74,True,2023-03-01
+4,HN-RETURN,Kho hàng hoàn / lỗi,returns,Bắc,01,False,2021-06-01

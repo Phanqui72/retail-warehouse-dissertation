@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2303-9632,PO2303-9632-01,502,1,30016,CN-KB-01,80,53276,2023-03-08,2023-04-02,2023-03-31,80,received
+PO2303-9632,PO2303-9632-02,502,1,30025,CM-DT-02,20,15865,2023-03-08,2023-04-02,2023-03-31,20,received
+PO2303-9632,PO2303-9632-03,502,1,30074,GPC-CO-01,20,22032,2023-03-08,2023-04-02,2023-03-31,20,received

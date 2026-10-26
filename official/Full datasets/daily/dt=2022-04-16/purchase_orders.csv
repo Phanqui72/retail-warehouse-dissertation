@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2203-9305,PO2203-9305-01,503,1,30038,KM-IN-01,150,32713,2022-03-23,2022-04-13,2022-04-16,150,received
+PO2203-9305,PO2203-9305-02,503,1,30057,BT-TB-03,70,6946,2022-03-23,2022-04-13,2022-04-16,69,received
+PO2203-9305,PO2203-9305-03,503,1,30060,BD-RM-03,70,9432,2022-03-23,2022-04-13,2022-04-16,63,received

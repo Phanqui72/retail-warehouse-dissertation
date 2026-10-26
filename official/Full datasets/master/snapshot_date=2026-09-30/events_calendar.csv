@@ -1,0 +1,167 @@
+event_code,event_year,event_name,event_type,platform,anchor_date,window_before_days,window_after_days,priority
+DD0101,2021,Ngày đôi 1.1,double_day,all,2021-01-01,2,1,2
+PAYDAY25_01,2021,Sale giữa/cuối tháng 25/1,payday,all,2021-01-25,1,1,3
+DD0202,2021,Ngày đôi 2.2,double_day,all,2021-02-02,2,1,2
+PAYDAY25_02,2021,Sale giữa/cuối tháng 25/2,payday,all,2021-02-25,1,1,3
+DD0303,2021,Ngày đôi 3.3,double_day,all,2021-03-03,2,1,2
+PAYDAY25_03,2021,Sale giữa/cuối tháng 25/3,payday,all,2021-03-25,1,1,3
+DD0404,2021,Ngày đôi 4.4,double_day,all,2021-04-04,2,1,2
+PAYDAY25_04,2021,Sale giữa/cuối tháng 25/4,payday,all,2021-04-25,1,1,3
+DD0505,2021,Ngày đôi 5.5,double_day,all,2021-05-05,2,1,2
+PAYDAY25_05,2021,Sale giữa/cuối tháng 25/5,payday,all,2021-05-25,1,1,3
+DD0606,2021,Ngày đôi 6.6,double_day,all,2021-06-06,2,1,2
+PAYDAY25_06,2021,Sale giữa/cuối tháng 25/6,payday,all,2021-06-25,1,1,3
+DD0707,2021,Ngày đôi 7.7,double_day,all,2021-07-07,2,1,2
+PAYDAY25_07,2021,Sale giữa/cuối tháng 25/7,payday,all,2021-07-25,1,1,3
+DD0808,2021,Ngày đôi 8.8,double_day,all,2021-08-08,2,1,2
+PAYDAY25_08,2021,Sale giữa/cuối tháng 25/8,payday,all,2021-08-25,1,1,3
+DD0909,2021,Ngày đôi 9.9,double_day,all,2021-09-09,2,1,1
+PAYDAY25_09,2021,Sale giữa/cuối tháng 25/9,payday,all,2021-09-25,1,1,3
+DD1010,2021,Ngày đôi 10.10,double_day,all,2021-10-10,2,1,1
+PAYDAY25_10,2021,Sale giữa/cuối tháng 25/10,payday,all,2021-10-25,1,1,3
+DD1111,2021,Ngày đôi 11.11,double_day,all,2021-11-11,2,1,1
+PAYDAY25_11,2021,Sale giữa/cuối tháng 25/11,payday,all,2021-11-25,1,1,3
+DD1212,2021,Ngày đôi 12.12,double_day,all,2021-12-12,2,1,1
+PAYDAY25_12,2021,Sale giữa/cuối tháng 25/12,payday,all,2021-12-25,1,1,3
+TET,2021,Tết Nguyên Đán,holiday,all,2021-02-12,10,6,1
+WD0803,2021,Quốc tế Phụ nữ 8/3,gifting,all,2021-03-08,5,0,2
+WD2010,2021,Phụ nữ Việt Nam 20/10,gifting,all,2021-10-20,5,0,2
+BLACKFRIDAY,2021,Black Friday,mega_sale,all,2021-11-26,1,3,2
+BRAND_BDAY,2021,Sinh nhật thương hiệu,brand,website,2021-07-15,3,3,2
+DD0101,2022,Ngày đôi 1.1,double_day,all,2022-01-01,2,1,2
+PAYDAY25_01,2022,Sale giữa/cuối tháng 25/1,payday,all,2022-01-25,1,1,3
+DD0202,2022,Ngày đôi 2.2,double_day,all,2022-02-02,2,1,2
+PAYDAY25_02,2022,Sale giữa/cuối tháng 25/2,payday,all,2022-02-25,1,1,3
+DD0303,2022,Ngày đôi 3.3,double_day,all,2022-03-03,2,1,2
+PAYDAY25_03,2022,Sale giữa/cuối tháng 25/3,payday,all,2022-03-25,1,1,3
+DD0404,2022,Ngày đôi 4.4,double_day,all,2022-04-04,2,1,2
+PAYDAY25_04,2022,Sale giữa/cuối tháng 25/4,payday,all,2022-04-25,1,1,3
+DD0505,2022,Ngày đôi 5.5,double_day,all,2022-05-05,2,1,2
+PAYDAY25_05,2022,Sale giữa/cuối tháng 25/5,payday,all,2022-05-25,1,1,3
+DD0606,2022,Ngày đôi 6.6,double_day,all,2022-06-06,2,1,2
+PAYDAY25_06,2022,Sale giữa/cuối tháng 25/6,payday,all,2022-06-25,1,1,3
+DD0707,2022,Ngày đôi 7.7,double_day,all,2022-07-07,2,1,2
+PAYDAY25_07,2022,Sale giữa/cuối tháng 25/7,payday,all,2022-07-25,1,1,3
+DD0808,2022,Ngày đôi 8.8,double_day,all,2022-08-08,2,1,2
+PAYDAY25_08,2022,Sale giữa/cuối tháng 25/8,payday,all,2022-08-25,1,1,3
+DD0909,2022,Ngày đôi 9.9,double_day,all,2022-09-09,2,1,1
+PAYDAY25_09,2022,Sale giữa/cuối tháng 25/9,payday,all,2022-09-25,1,1,3
+DD1010,2022,Ngày đôi 10.10,double_day,all,2022-10-10,2,1,1
+PAYDAY25_10,2022,Sale giữa/cuối tháng 25/10,payday,all,2022-10-25,1,1,3
+DD1111,2022,Ngày đôi 11.11,double_day,all,2022-11-11,2,1,1
+PAYDAY25_11,2022,Sale giữa/cuối tháng 25/11,payday,all,2022-11-25,1,1,3
+DD1212,2022,Ngày đôi 12.12,double_day,all,2022-12-12,2,1,1
+PAYDAY25_12,2022,Sale giữa/cuối tháng 25/12,payday,all,2022-12-25,1,1,3
+TET,2022,Tết Nguyên Đán,holiday,all,2022-02-01,10,6,1
+WD0803,2022,Quốc tế Phụ nữ 8/3,gifting,all,2022-03-08,5,0,2
+WD2010,2022,Phụ nữ Việt Nam 20/10,gifting,all,2022-10-20,5,0,2
+BLACKFRIDAY,2022,Black Friday,mega_sale,all,2022-11-25,1,3,2
+BRAND_BDAY,2022,Sinh nhật thương hiệu,brand,website,2022-07-15,3,3,2
+DD0101,2023,Ngày đôi 1.1,double_day,all,2023-01-01,2,1,2
+PAYDAY25_01,2023,Sale giữa/cuối tháng 25/1,payday,all,2023-01-25,1,1,3
+DD0202,2023,Ngày đôi 2.2,double_day,all,2023-02-02,2,1,2
+PAYDAY25_02,2023,Sale giữa/cuối tháng 25/2,payday,all,2023-02-25,1,1,3
+DD0303,2023,Ngày đôi 3.3,double_day,all,2023-03-03,2,1,2
+PAYDAY25_03,2023,Sale giữa/cuối tháng 25/3,payday,all,2023-03-25,1,1,3
+DD0404,2023,Ngày đôi 4.4,double_day,all,2023-04-04,2,1,2
+PAYDAY25_04,2023,Sale giữa/cuối tháng 25/4,payday,all,2023-04-25,1,1,3
+DD0505,2023,Ngày đôi 5.5,double_day,all,2023-05-05,2,1,2
+PAYDAY25_05,2023,Sale giữa/cuối tháng 25/5,payday,all,2023-05-25,1,1,3
+DD0606,2023,Ngày đôi 6.6,double_day,all,2023-06-06,2,1,2
+PAYDAY25_06,2023,Sale giữa/cuối tháng 25/6,payday,all,2023-06-25,1,1,3
+DD0707,2023,Ngày đôi 7.7,double_day,all,2023-07-07,2,1,2
+PAYDAY25_07,2023,Sale giữa/cuối tháng 25/7,payday,all,2023-07-25,1,1,3
+DD0808,2023,Ngày đôi 8.8,double_day,all,2023-08-08,2,1,2
+PAYDAY25_08,2023,Sale giữa/cuối tháng 25/8,payday,all,2023-08-25,1,1,3
+DD0909,2023,Ngày đôi 9.9,double_day,all,2023-09-09,2,1,1
+PAYDAY25_09,2023,Sale giữa/cuối tháng 25/9,payday,all,2023-09-25,1,1,3
+DD1010,2023,Ngày đôi 10.10,double_day,all,2023-10-10,2,1,1
+PAYDAY25_10,2023,Sale giữa/cuối tháng 25/10,payday,all,2023-10-25,1,1,3
+DD1111,2023,Ngày đôi 11.11,double_day,all,2023-11-11,2,1,1
+PAYDAY25_11,2023,Sale giữa/cuối tháng 25/11,payday,all,2023-11-25,1,1,3
+DD1212,2023,Ngày đôi 12.12,double_day,all,2023-12-12,2,1,1
+PAYDAY25_12,2023,Sale giữa/cuối tháng 25/12,payday,all,2023-12-25,1,1,3
+TET,2023,Tết Nguyên Đán,holiday,all,2023-01-22,10,6,1
+WD0803,2023,Quốc tế Phụ nữ 8/3,gifting,all,2023-03-08,5,0,2
+WD2010,2023,Phụ nữ Việt Nam 20/10,gifting,all,2023-10-20,5,0,2
+BLACKFRIDAY,2023,Black Friday,mega_sale,all,2023-11-24,1,3,2
+BRAND_BDAY,2023,Sinh nhật thương hiệu,brand,website,2023-07-15,3,3,2
+DD0101,2024,Ngày đôi 1.1,double_day,all,2024-01-01,2,1,2
+PAYDAY25_01,2024,Sale giữa/cuối tháng 25/1,payday,all,2024-01-25,1,1,3
+DD0202,2024,Ngày đôi 2.2,double_day,all,2024-02-02,2,1,2
+PAYDAY25_02,2024,Sale giữa/cuối tháng 25/2,payday,all,2024-02-25,1,1,3
+DD0303,2024,Ngày đôi 3.3,double_day,all,2024-03-03,2,1,2
+PAYDAY25_03,2024,Sale giữa/cuối tháng 25/3,payday,all,2024-03-25,1,1,3
+DD0404,2024,Ngày đôi 4.4,double_day,all,2024-04-04,2,1,2
+PAYDAY25_04,2024,Sale giữa/cuối tháng 25/4,payday,all,2024-04-25,1,1,3
+DD0505,2024,Ngày đôi 5.5,double_day,all,2024-05-05,2,1,2
+PAYDAY25_05,2024,Sale giữa/cuối tháng 25/5,payday,all,2024-05-25,1,1,3
+DD0606,2024,Ngày đôi 6.6,double_day,all,2024-06-06,2,1,2
+PAYDAY25_06,2024,Sale giữa/cuối tháng 25/6,payday,all,2024-06-25,1,1,3
+DD0707,2024,Ngày đôi 7.7,double_day,all,2024-07-07,2,1,2
+PAYDAY25_07,2024,Sale giữa/cuối tháng 25/7,payday,all,2024-07-25,1,1,3
+DD0808,2024,Ngày đôi 8.8,double_day,all,2024-08-08,2,1,2
+PAYDAY25_08,2024,Sale giữa/cuối tháng 25/8,payday,all,2024-08-25,1,1,3
+DD0909,2024,Ngày đôi 9.9,double_day,all,2024-09-09,2,1,1
+PAYDAY25_09,2024,Sale giữa/cuối tháng 25/9,payday,all,2024-09-25,1,1,3
+DD1010,2024,Ngày đôi 10.10,double_day,all,2024-10-10,2,1,1
+PAYDAY25_10,2024,Sale giữa/cuối tháng 25/10,payday,all,2024-10-25,1,1,3
+DD1111,2024,Ngày đôi 11.11,double_day,all,2024-11-11,2,1,1
+PAYDAY25_11,2024,Sale giữa/cuối tháng 25/11,payday,all,2024-11-25,1,1,3
+DD1212,2024,Ngày đôi 12.12,double_day,all,2024-12-12,2,1,1
+PAYDAY25_12,2024,Sale giữa/cuối tháng 25/12,payday,all,2024-12-25,1,1,3
+TET,2024,Tết Nguyên Đán,holiday,all,2024-02-10,10,6,1
+WD0803,2024,Quốc tế Phụ nữ 8/3,gifting,all,2024-03-08,5,0,2
+WD2010,2024,Phụ nữ Việt Nam 20/10,gifting,all,2024-10-20,5,0,2
+BLACKFRIDAY,2024,Black Friday,mega_sale,all,2024-11-29,1,3,2
+BRAND_BDAY,2024,Sinh nhật thương hiệu,brand,website,2024-07-15,3,3,2
+DD0101,2025,Ngày đôi 1.1,double_day,all,2025-01-01,2,1,2
+PAYDAY25_01,2025,Sale giữa/cuối tháng 25/1,payday,all,2025-01-25,1,1,3
+DD0202,2025,Ngày đôi 2.2,double_day,all,2025-02-02,2,1,2
+PAYDAY25_02,2025,Sale giữa/cuối tháng 25/2,payday,all,2025-02-25,1,1,3
+DD0303,2025,Ngày đôi 3.3,double_day,all,2025-03-03,2,1,2
+PAYDAY25_03,2025,Sale giữa/cuối tháng 25/3,payday,all,2025-03-25,1,1,3
+DD0404,2025,Ngày đôi 4.4,double_day,all,2025-04-04,2,1,2
+PAYDAY25_04,2025,Sale giữa/cuối tháng 25/4,payday,all,2025-04-25,1,1,3
+DD0505,2025,Ngày đôi 5.5,double_day,all,2025-05-05,2,1,2
+PAYDAY25_05,2025,Sale giữa/cuối tháng 25/5,payday,all,2025-05-25,1,1,3
+DD0606,2025,Ngày đôi 6.6,double_day,all,2025-06-06,2,1,2
+PAYDAY25_06,2025,Sale giữa/cuối tháng 25/6,payday,all,2025-06-25,1,1,3
+DD0707,2025,Ngày đôi 7.7,double_day,all,2025-07-07,2,1,2
+PAYDAY25_07,2025,Sale giữa/cuối tháng 25/7,payday,all,2025-07-25,1,1,3
+DD0808,2025,Ngày đôi 8.8,double_day,all,2025-08-08,2,1,2
+PAYDAY25_08,2025,Sale giữa/cuối tháng 25/8,payday,all,2025-08-25,1,1,3
+DD0909,2025,Ngày đôi 9.9,double_day,all,2025-09-09,2,1,1
+PAYDAY25_09,2025,Sale giữa/cuối tháng 25/9,payday,all,2025-09-25,1,1,3
+DD1010,2025,Ngày đôi 10.10,double_day,all,2025-10-10,2,1,1
+PAYDAY25_10,2025,Sale giữa/cuối tháng 25/10,payday,all,2025-10-25,1,1,3
+DD1111,2025,Ngày đôi 11.11,double_day,all,2025-11-11,2,1,1
+PAYDAY25_11,2025,Sale giữa/cuối tháng 25/11,payday,all,2025-11-25,1,1,3
+DD1212,2025,Ngày đôi 12.12,double_day,all,2025-12-12,2,1,1
+PAYDAY25_12,2025,Sale giữa/cuối tháng 25/12,payday,all,2025-12-25,1,1,3
+TET,2025,Tết Nguyên Đán,holiday,all,2025-01-29,10,6,1
+WD0803,2025,Quốc tế Phụ nữ 8/3,gifting,all,2025-03-08,5,0,2
+WD2010,2025,Phụ nữ Việt Nam 20/10,gifting,all,2025-10-20,5,0,2
+BLACKFRIDAY,2025,Black Friday,mega_sale,all,2025-11-28,1,3,2
+BRAND_BDAY,2025,Sinh nhật thương hiệu,brand,website,2025-07-15,3,3,2
+DD0101,2026,Ngày đôi 1.1,double_day,all,2026-01-01,2,1,2
+PAYDAY25_01,2026,Sale giữa/cuối tháng 25/1,payday,all,2026-01-25,1,1,3
+DD0202,2026,Ngày đôi 2.2,double_day,all,2026-02-02,2,1,2
+PAYDAY25_02,2026,Sale giữa/cuối tháng 25/2,payday,all,2026-02-25,1,1,3
+DD0303,2026,Ngày đôi 3.3,double_day,all,2026-03-03,2,1,2
+PAYDAY25_03,2026,Sale giữa/cuối tháng 25/3,payday,all,2026-03-25,1,1,3
+DD0404,2026,Ngày đôi 4.4,double_day,all,2026-04-04,2,1,2
+PAYDAY25_04,2026,Sale giữa/cuối tháng 25/4,payday,all,2026-04-25,1,1,3
+DD0505,2026,Ngày đôi 5.5,double_day,all,2026-05-05,2,1,2
+PAYDAY25_05,2026,Sale giữa/cuối tháng 25/5,payday,all,2026-05-25,1,1,3
+DD0606,2026,Ngày đôi 6.6,double_day,all,2026-06-06,2,1,2
+PAYDAY25_06,2026,Sale giữa/cuối tháng 25/6,payday,all,2026-06-25,1,1,3
+DD0707,2026,Ngày đôi 7.7,double_day,all,2026-07-07,2,1,2
+PAYDAY25_07,2026,Sale giữa/cuối tháng 25/7,payday,all,2026-07-25,1,1,3
+DD0808,2026,Ngày đôi 8.8,double_day,all,2026-08-08,2,1,2
+PAYDAY25_08,2026,Sale giữa/cuối tháng 25/8,payday,all,2026-08-25,1,1,3
+DD0909,2026,Ngày đôi 9.9,double_day,all,2026-09-09,2,1,1
+PAYDAY25_09,2026,Sale giữa/cuối tháng 25/9,payday,all,2026-09-25,1,1,3
+TET,2026,Tết Nguyên Đán,holiday,all,2026-02-17,10,6,1
+WD0803,2026,Quốc tế Phụ nữ 8/3,gifting,all,2026-03-08,5,0,2
+BRAND_BDAY,2026,Sinh nhật thương hiệu,brand,website,2026-07-15,3,3,2

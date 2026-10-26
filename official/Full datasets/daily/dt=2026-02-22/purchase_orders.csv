@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2601-10727,PO2601-10727-01,502,1,30026,BC-M5-01,80,84056,2026-01-28,2026-02-22,2026-02-22,80,received
+PO2601-10727,PO2601-10727-02,502,1,30030,BC-12-03,80,200128,2026-01-28,2026-02-22,2026-02-22,80,received
+PO2601-10727,PO2601-10727-03,502,1,30070,NRC-VS-01,200,29284,2026-01-28,2026-02-22,2026-02-22,200,received

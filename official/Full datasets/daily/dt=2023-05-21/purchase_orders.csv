@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2304-9677,PO2304-9677-01,502,1,30025,CM-DT-02,30,15414,2023-04-19,2023-05-14,2023-05-21,30,received
+PO2304-9677,PO2304-9677-02,502,1,30026,BC-M5-01,80,76175,2023-04-19,2023-05-14,2023-05-21,80,received
+PO2304-9677,PO2304-9677-03,502,1,30030,BC-12-03,60,188934,2023-04-19,2023-05-14,2023-05-21,60,received

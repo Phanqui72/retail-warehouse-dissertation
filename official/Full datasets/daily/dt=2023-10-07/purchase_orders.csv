@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2309-9854,PO2309-9854-01,501,2,30002,MTN-GN-02,410,15876,2023-09-27,2023-10-04,2023-10-07,390,received
+PO2309-9854,PO2309-9854-02,501,2,30005,MTN-GN-05,130,15571,2023-09-27,2023-10-04,2023-10-07,123,received

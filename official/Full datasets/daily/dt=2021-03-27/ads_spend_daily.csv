@@ -1,0 +1,7 @@
+stat_date,shop_code,campaign_id,campaign_type,spend_amount,impressions,clicks,ad_orders,ad_gmv_amount
+2021-03-27,LZD_01,LZD_01-SEA,search,88216,1433,38,1,267132
+2021-03-27,LZD_01,LZD_01-DIS,discovery,57746,2347,31,0,145708
+2021-03-27,LZD_01,LZD_01-AFF,affiliate,22290,997,18,0,72854
+2021-03-27,SHP_MALL,SHP_MALL-SEA,search,161330,3921,67,4,696388
+2021-03-27,SHP_MALL,SHP_MALL-DIS,discovery,68186,1079,29,2,379848
+2021-03-27,SHP_MALL,SHP_MALL-AFF,affiliate,41799,1355,21,1,189924

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2601-10716,PO2601-10716-01,503,1,30044,DC-MY-01,180,7773,2026-01-07,2026-01-28,2026-01-29,234,received
+PO2601-10725,PO2601-10725-01,501,2,30012,MTN-HY-02,110,24332,2026-01-21,2026-01-28,2026-01-29,103,received
+PO2601-10725,PO2601-10725-02,501,2,30033,BP-TR-01,270,7427,2026-01-21,2026-01-28,2026-01-29,270,received

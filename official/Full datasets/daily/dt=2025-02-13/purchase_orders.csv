@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2501-10359,PO2501-10359-01,503,2,30056,BT-TB-02,100,7614,2025-01-22,2025-02-12,2025-02-13,100,received
+PO2501-10359,PO2501-10359-02,503,2,30079,GU-CT-03,40,15453,2025-01-22,2025-02-12,2025-02-13,40,received
+PO2502-10361,PO2502-10361-01,501,2,30012,MTN-HY-02,100,23672,2025-02-05,2025-02-12,2025-02-13,100,received

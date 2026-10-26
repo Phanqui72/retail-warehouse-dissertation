@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2409-10208,PO2409-10208-01,502,2,30022,CC-KD-01,140,18968,2024-09-04,2024-09-29,2024-09-29,140,received

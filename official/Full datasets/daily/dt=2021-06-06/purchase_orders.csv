@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2105-9047,PO2105-9047-01,502,2,30013,CN-DB-01,140,41686,2021-05-12,2021-06-06,2021-06-06,140,received

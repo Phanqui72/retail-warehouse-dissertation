@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2103-9020,PO2103-9020-01,503,1,30043,NH-MY-02,10,12410,2021-03-31,2021-04-21,2021-04-20,10,received
+PO2103-9020,PO2103-9020-02,503,1,30044,DC-MY-01,60,6447,2021-03-31,2021-04-21,2021-04-20,60,received
+PO2103-9020,PO2103-9020-03,503,1,30077,GU-CT-01,10,13326,2021-03-31,2021-04-21,2021-04-20,10,received

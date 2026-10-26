@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2605-10841,PO2605-10841-01,501,1,30006,MTN-HL-01,290,12765,2026-05-27,2026-06-03,2026-06-04,290,received
+PO2605-10841,PO2605-10841-02,501,1,30011,MTN-HY-01,220,24004,2026-05-27,2026-06-03,2026-06-04,220,received
+PO2605-10841,PO2605-10841-03,501,1,30012,MTN-HY-02,110,24679,2026-05-27,2026-06-03,2026-06-04,110,received

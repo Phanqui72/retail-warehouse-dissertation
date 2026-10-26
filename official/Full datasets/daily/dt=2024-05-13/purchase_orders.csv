@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2405-10082,PO2405-10082-01,504,2,30050,BTT-VA-02,20,42318,2024-05-08,2024-05-13,2024-05-13,20,received

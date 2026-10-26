@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-03-12",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-03-13T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 81,
+   "bytes": 15873,
+   "md5": "89a0cb61deec662a510dd2df88a79208",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 66,
+   "bytes": 5709,
+   "md5": "1102562b30ca7f252be1e7d34400fa66",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 44,
+   "bytes": 2282,
+   "md5": "c93bf73885be72b361d8e211d48a40a7",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 238,
+   "bytes": 9178,
+   "md5": "038678c19708000097821d6539b67c48",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 41,
+   "bytes": 3058,
+   "md5": "6a122e7481596e13cf15a85be5ba8009",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 15,
+   "bytes": 2625,
+   "md5": "51dacef2956a29943fccf3650cbe7efc",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 32,
+   "bytes": 3177,
+   "md5": "57b09b40bf5f2a7c105e22dfdc771797",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 56,
+   "bytes": 2382,
+   "md5": "961a0ef92f5b5d9395efeb238abcc517",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 22,
+   "bytes": 3321,
+   "md5": "afab7c3dc079ab907de8d142f8edcfec",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 474,
+   "md5": "3c2df4c1c513c371564d14daf4ff585a",
+   "schema_version": "v1"
+  }
+ ]
+}

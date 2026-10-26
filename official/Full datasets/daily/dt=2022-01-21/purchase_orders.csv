@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2112-9235,PO2112-9235-01,503,1,30058,BD-RM-01,70,8913,2021-12-29,2022-01-19,2022-01-21,70,received
+PO2112-9235,PO2112-9235-02,503,1,30080,TU-MP-01,110,45967,2021-12-29,2022-01-19,2022-01-21,110,received
+PO2201-9244,PO2201-9244-01,501,1,30004,MTN-GN-04,80,14637,2022-01-12,2022-01-19,2022-01-21,80,received

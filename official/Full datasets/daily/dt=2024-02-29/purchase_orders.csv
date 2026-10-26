@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2401-9978,PO2401-9978-01,502,1,30019,CP-PP-02,40,47680,2024-01-31,2024-02-25,2024-02-29,40,received
+PO2401-9978,PO2401-9978-02,502,1,30073,TRC-SL-02,80,14622,2024-01-31,2024-02-25,2024-02-29,80,received

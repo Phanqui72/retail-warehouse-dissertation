@@ -1,0 +1,4 @@
+stat_date,shop_code,campaign_id,campaign_type,spend_amount,impressions,clicks,ad_orders,ad_gmv_amount
+2021-02-18,SHP_MALL,SHP_MALL-SEA,search,56781,2098,26,1,196369
+2021-02-18,SHP_MALL,SHP_MALL-DIS,discovery,21370,670,17,0,107110
+2021-02-18,SHP_MALL,SHP_MALL-AFF,affiliate,17911,1111,14,0,53555

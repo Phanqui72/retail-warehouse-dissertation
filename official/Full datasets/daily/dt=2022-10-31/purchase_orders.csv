@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2210-9490,PO2210-9490-01,502,1,30017,CN-KB-02,40,51146,2022-10-05,2022-10-30,2022-10-31,40,received
+PO2210-9490,PO2210-9490-02,502,1,30029,BC-12-02,70,172893,2022-10-05,2022-10-30,2022-10-31,69,received
+PO2210-9490,PO2210-9490-03,502,1,30070,NRC-VS-01,90,25844,2022-10-05,2022-10-30,2022-10-31,90,received
+PO2210-9490,PO2210-9490-04,502,1,30072,TRC-SL-01,120,13848,2022-10-05,2022-10-30,2022-10-31,119,received

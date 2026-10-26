@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2206-9395,PO2206-9395-01,502,2,30015,CN-DB-03,120,43946,2022-06-29,2022-07-24,2022-07-26,120,received
+PO2206-9395,PO2206-9395-02,502,2,30022,CC-KD-01,60,18523,2022-06-29,2022-07-24,2022-07-26,60,received
+PO2206-9395,PO2206-9395-03,502,2,30023,CC-KD-02,100,18800,2022-06-29,2022-07-24,2022-07-26,100,received

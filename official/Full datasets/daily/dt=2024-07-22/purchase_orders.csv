@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2407-10155,PO2407-10155-01,504,1,30047,BTT-HP-02,460,11518,2024-07-17,2024-07-22,2024-07-22,460,received
+PO2407-10155,PO2407-10155-02,504,1,30049,BTT-VA-01,30,24796,2024-07-17,2024-07-22,2024-07-22,30,received
+PO2407-10158,PO2407-10158-01,504,2,30049,BTT-VA-01,50,24524,2024-07-17,2024-07-22,2024-07-22,42,received

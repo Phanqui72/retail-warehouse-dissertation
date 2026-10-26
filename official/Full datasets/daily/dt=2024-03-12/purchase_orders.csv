@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2402-9991,PO2402-9991-01,502,1,30070,NRC-VS-01,110,27845,2024-02-14,2024-03-10,2024-03-12,110,received

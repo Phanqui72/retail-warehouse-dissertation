@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2022-03-25",
+ "source": "oms_extract_sim",
+ "generated_at": "2022-03-26T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 201,
+   "bytes": 38508,
+   "md5": "a63ad4d444ad172020b0eccf8981e257",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 158,
+   "bytes": 13379,
+   "md5": "e31687762b4e6a83bc83400bce228648",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 118,
+   "bytes": 5991,
+   "md5": "95e2ead7bfc26bc9c90350e34c308013",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 568,
+   "bytes": 21926,
+   "md5": "c0ea846e5bc615fa52484930b27aec4c",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 112,
+   "bytes": 8230,
+   "md5": "175ae50f2123534969f7f75e7718b881",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 24,
+   "bytes": 4166,
+   "md5": "9df6fa45647d030bf101ef3819e53996",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 80,
+   "bytes": 7662,
+   "md5": "0203c41d9dea39c5b8f6d63e1a7c04b8",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 134,
+   "bytes": 5536,
+   "md5": "b212888acd700ef600ea151b7477a1a8",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 70,
+   "bytes": 9884,
+   "md5": "82b7310950ecbed6f376501ea0ab3b74",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 9,
+   "bytes": 668,
+   "md5": "8037cedbae0e4b2ec71336dac3462774",
+   "schema_version": "v1"
+  }
+ ]
+}

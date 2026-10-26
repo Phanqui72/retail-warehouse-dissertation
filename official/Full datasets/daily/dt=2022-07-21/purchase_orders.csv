@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2207-9404,PO2207-9404-01,501,1,30005,MTN-GN-05,90,15053,2022-07-13,2022-07-20,2022-07-21,84,received

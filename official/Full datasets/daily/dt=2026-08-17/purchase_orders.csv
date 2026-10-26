@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2607-10904,PO2607-10904-01,502,1,30014,CN-DB-02,70,48588,2026-07-22,2026-08-16,2026-08-17,91,received
+PO2607-10904,PO2607-10904-02,502,1,30019,CP-PP-02,70,53588,2026-07-22,2026-08-16,2026-08-17,70,received
+PO2608-10932,PO2608-10932-01,504,2,30050,BTT-VA-02,30,44606,2026-08-12,2026-08-17,2026-08-17,30,received

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2206-9386,PO2206-9386-01,502,1,30019,CP-PP-02,60,47049,2022-06-22,2022-07-17,2022-07-17,60,received

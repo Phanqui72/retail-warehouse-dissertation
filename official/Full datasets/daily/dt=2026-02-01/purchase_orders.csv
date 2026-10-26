@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2601-10715,PO2601-10715-01,502,1,30015,CN-DB-03,110,50273,2026-01-07,2026-02-01,2026-02-01,98,received
+PO2601-10715,PO2601-10715-02,502,1,30023,CC-KD-02,110,20829,2026-01-07,2026-02-01,2026-02-01,108,received
+PO2601-10715,PO2601-10715-03,502,1,30073,TRC-SL-02,90,16119,2026-01-07,2026-02-01,2026-02-01,89,received

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2601-10724,PO2601-10724-01,503,1,30061,LC-GR-01,60,31988,2026-01-21,2026-02-11,2026-02-16,60,received

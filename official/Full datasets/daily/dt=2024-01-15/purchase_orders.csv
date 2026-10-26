@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2312-9938,PO2312-9938-01,502,2,30015,CN-DB-03,140,45185,2023-12-20,2024-01-14,2024-01-15,140,received
+PO2312-9938,PO2312-9938-02,502,2,30071,NRC-VS-02,40,52121,2023-12-20,2024-01-14,2024-01-15,40,received
+PO2401-9961,PO2401-9961-01,504,2,30049,BTT-VA-01,40,23670,2024-01-10,2024-01-15,2024-01-15,36,received

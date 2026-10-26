@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2209-9464,PO2209-9464-01,501,2,30010,MTN-VC-02,60,29608,2022-09-07,2022-09-14,2022-09-16,60,received
+PO2209-9464,PO2209-9464-02,501,2,30034,BP-TR-02,170,6708,2022-09-07,2022-09-14,2022-09-16,170,received

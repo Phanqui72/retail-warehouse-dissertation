@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2305-9695,PO2305-9695-01,502,2,30015,CN-DB-03,120,46191,2023-05-03,2023-05-28,2023-05-28,120,received

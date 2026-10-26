@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2211-9531,PO2211-9531-01,502,1,30014,CN-DB-02,50,43302,2022-11-16,2022-12-11,2022-12-15,50,received

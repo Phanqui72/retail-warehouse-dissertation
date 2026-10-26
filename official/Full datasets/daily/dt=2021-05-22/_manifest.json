@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-05-22",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-05-23T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 118,
+   "bytes": 23390,
+   "md5": "dab22a117d8349b8ba7259fcda210a4b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 86,
+   "bytes": 7385,
+   "md5": "8d2fa697354460682df27cccf6cf719f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 61,
+   "bytes": 3189,
+   "md5": "17b0c85d274e61fa41704383f581d3fb",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 361,
+   "bytes": 13997,
+   "md5": "b220959b484932e9467d0b81f0f3acb5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 57,
+   "bytes": 4281,
+   "md5": "236fb712b806a6bc301e72c6d34993a9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 17,
+   "bytes": 2935,
+   "md5": "702e35df870b3e72dec278df253d1385",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 42,
+   "bytes": 4110,
+   "md5": "38bc9552c722b42fd03114534e2ecdef",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 62,
+   "bytes": 2667,
+   "md5": "4d4b6f3ea41c4423c29ed080e8b978ca",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 28,
+   "bytes": 4268,
+   "md5": "0527955fcdcbcc889e012ff480ce8264",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 482,
+   "md5": "e0bb9237d13350330ec9cd82e6833a70",
+   "schema_version": "v1"
+  }
+ ]
+}

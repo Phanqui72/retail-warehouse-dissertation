@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2312-9924,PO2312-9924-03,501,2,30004,MTN-GN-04,310,15834,2023-12-06,2023-12-13,2023-12-03,310,received

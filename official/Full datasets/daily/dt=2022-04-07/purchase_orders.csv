@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2204-9320,PO2204-9320-02,502,2,30014,CN-DB-02,80,43458,2022-04-06,2022-05-01,2022-04-03,80,received

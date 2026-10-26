@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2309-9841,PO2309-9841-01,505,2,30051,LM-DA-01,150,77364,2023-09-13,2023-09-27,2023-09-30,150,received
+PO2309-9841,PO2309-9841-02,505,2,30052,LM-DA-02,40,74679,2023-09-13,2023-09-27,2023-09-30,40,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2412-10329,PO2412-10329-01,503,1,30040,KM-MN-01,60,19711,2024-12-25,2025-01-15,2025-01-14,60,received
+PO2412-10329,PO2412-10329-03,503,1,30055,BT-TB-01,300,7315,2024-12-25,2025-01-15,2025-01-14,300,received
+PO2412-10329,PO2412-10329-04,503,1,30062,LC-GR-02,60,29699,2024-12-25,2025-01-15,2025-01-14,60,received

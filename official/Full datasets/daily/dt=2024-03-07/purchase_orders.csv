@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2402-9988,PO2402-9988-01,502,2,30018,CP-PP-01,80,50005,2024-02-07,2024-03-03,2024-03-07,80,received
+PO2402-9988,PO2402-9988-02,502,2,30023,CC-KD-02,80,19221,2024-02-07,2024-03-03,2024-03-07,80,received
+PO2402-9988,PO2402-9988-03,502,2,30025,CM-DT-02,60,15736,2024-02-07,2024-03-03,2024-03-07,60,received
+PO2403-10008,PO2403-10008-04,501,2,30034,BP-TR-02,130,6861,2024-03-06,2024-03-13,2024-03-03,130,received

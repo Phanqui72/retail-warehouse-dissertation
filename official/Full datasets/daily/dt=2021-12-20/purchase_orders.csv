@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2111-9207,PO2111-9207-01,502,2,30027,BC-M5-02,40,70064,2021-11-24,2021-12-19,2021-12-20,40,received
+PO2112-9213,PO2112-9213-01,503,2,30055,BT-TB-01,50,6750,2021-12-01,2021-12-22,2021-12-20,45,received
+PO2112-9213,PO2112-9213-02,503,2,30059,BD-RM-02,100,9199,2021-12-01,2021-12-22,2021-12-20,100,received
+PO2112-9213,PO2112-9213-03,503,2,30062,LC-GR-02,80,26833,2021-12-01,2021-12-22,2021-12-20,72,received

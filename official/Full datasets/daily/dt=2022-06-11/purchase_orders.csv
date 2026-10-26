@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2205-9354,PO2205-9354-01,503,1,30045,DC-MY-02,70,11782,2022-05-18,2022-06-08,2022-06-11,70,received
+PO2205-9354,PO2205-9354-02,503,1,30064,LO-CT-02,60,10092,2022-05-18,2022-06-08,2022-06-11,60,received
+PO2205-9354,PO2205-9354-03,503,1,30075,GU-LED-01,20,129422,2022-05-18,2022-06-08,2022-06-11,20,received
+PO2205-9354,PO2205-9354-04,503,1,30076,GU-LED-02,20,127703,2022-05-18,2022-06-08,2022-06-11,20,received

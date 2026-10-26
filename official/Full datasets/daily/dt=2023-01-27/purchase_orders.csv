@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2301-9575,PO2301-9575-01,502,1,30031,BC-DL7-01,70,93879,2023-01-04,2023-01-29,2023-01-27,70,received

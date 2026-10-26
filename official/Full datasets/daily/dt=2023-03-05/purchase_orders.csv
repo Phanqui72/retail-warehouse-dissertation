@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2302-9604,PO2302-9604-01,502,2,30018,CP-PP-01,80,48800,2023-02-08,2023-03-05,2023-03-05,80,received
+PO2302-9604,PO2302-9604-02,502,2,30028,BC-12-01,190,184855,2023-02-08,2023-03-05,2023-03-05,190,received
+PO2302-9604,PO2302-9604-03,502,2,30072,TRC-SL-01,160,14408,2023-02-08,2023-03-05,2023-03-05,153,received

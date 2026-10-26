@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2509-10598,PO2509-10598-01,502,2,30026,BC-M5-01,90,78326,2025-09-17,2025-10-12,2025-10-14,90,received
+PO2509-10598,PO2509-10598-02,502,2,30027,BC-M5-02,90,80305,2025-09-17,2025-10-12,2025-10-14,90,received
+PO2509-10598,PO2509-10598-03,502,2,30030,BC-12-03,90,194338,2025-09-17,2025-10-12,2025-10-14,90,received

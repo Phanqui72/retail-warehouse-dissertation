@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10132,PO2406-10132-01,502,2,30014,CN-DB-02,110,45748,2024-06-26,2024-07-21,2024-07-26,110,received
+PO2406-10132,PO2406-10132-02,502,2,30015,CN-DB-03,140,46342,2024-06-26,2024-07-21,2024-07-26,130,received
+PO2406-10132,PO2406-10132-03,502,2,30019,CP-PP-02,80,49953,2024-06-26,2024-07-21,2024-07-26,80,received

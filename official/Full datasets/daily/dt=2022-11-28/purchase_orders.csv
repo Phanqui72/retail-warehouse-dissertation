@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2211-9520,PO2211-9520-01,503,1,30058,BD-RM-01,200,9367,2022-11-02,2022-11-23,2022-11-28,200,received
+PO2211-9520,PO2211-9520-02,503,1,30062,LC-GR-02,50,27195,2022-11-02,2022-11-23,2022-11-28,50,received
+PO2211-9520,PO2211-9520-03,503,1,30079,GU-CT-03,30,14307,2022-11-02,2022-11-23,2022-11-28,30,received
+PO2211-9520,PO2211-9520-04,503,1,30081,TU-MP-02,30,47563,2022-11-02,2022-11-23,2022-11-28,30,received

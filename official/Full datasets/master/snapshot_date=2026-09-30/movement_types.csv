@@ -1,0 +1,10 @@
+bill_type,bill_mode,movement_name,movement_category,direction
+1,1,Nhập mua hàng,purchase,1
+1,2,Nhập hàng hoàn,return_in,1
+1,3,Nhập chuyển kho,transfer_in,1
+1,4,Nhập điều chỉnh kiểm kê,adjustment,1
+2,1,Xuất bán hàng,sale,-1
+2,2,Xuất trả nhà cung cấp,return_out,-1
+2,3,Xuất chuyển kho,transfer_out,-1
+2,4,Xuất điều chỉnh kiểm kê,adjustment,-1
+2,5,Xuất hủy hàng lỗi,write_off,-1

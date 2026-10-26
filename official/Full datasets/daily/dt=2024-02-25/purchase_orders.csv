@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2401-9983,PO2401-9983-01,502,2,30027,BC-M5-02,60,75586,2024-01-31,2024-02-25,2024-02-25,60,received

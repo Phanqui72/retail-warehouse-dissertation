@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2310-9861,PO2310-9861-01,501,2,30036,BP-TG-01,210,9871,2023-10-04,2023-10-11,2023-10-12,210,received
+PO2310-9861,PO2310-9861-02,501,2,30037,BP-TG-02,120,10011,2023-10-04,2023-10-11,2023-10-12,109,received
+PO2310-9868,PO2310-9868-01,505,1,30053,GS-DA-01,190,51643,2023-10-11,2023-10-25,2023-10-08,190,received

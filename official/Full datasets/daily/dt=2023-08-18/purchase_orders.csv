@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2307-9787,PO2307-9787-01,502,2,30019,CP-PP-02,80,49945,2023-07-26,2023-08-20,2023-08-18,73,received
+PO2307-9787,PO2307-9787-02,502,2,30025,CM-DT-02,60,15966,2023-07-26,2023-08-20,2023-08-18,60,received
+PO2307-9787,PO2307-9787-03,502,2,30030,BC-12-03,50,184675,2023-07-26,2023-08-20,2023-08-18,43,received
+PO2307-9787,PO2307-9787-04,502,2,30072,TRC-SL-01,180,14288,2023-07-26,2023-08-20,2023-08-18,180,received

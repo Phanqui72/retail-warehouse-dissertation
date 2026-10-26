@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2304-9686,PO2304-9686-01,503,1,30077,GU-CT-01,60,14645,2023-04-26,2023-05-17,2023-05-15,60,received

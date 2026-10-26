@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2411-10278,PO2411-10278-01,505,1,30054,GS-DA-02,40,50387,2024-11-06,2024-11-20,2024-11-21,40,received

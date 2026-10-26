@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2207-9421,PO2207-9421-01,502,1,30013,CN-DB-01,80,42157,2022-07-27,2022-08-21,2022-08-21,80,received
+PO2207-9421,PO2207-9421-02,502,1,30029,BC-12-02,70,176489,2022-07-27,2022-08-21,2022-08-21,70,received
+PO2208-9444,PO2208-9444-01,504,1,30048,BTT-HP-03,150,17233,2022-08-17,2022-08-22,2022-08-21,150,received

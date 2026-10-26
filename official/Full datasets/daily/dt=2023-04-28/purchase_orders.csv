@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2304-9669,PO2304-9669-01,502,2,30074,GPC-CO-01,70,21872,2023-04-05,2023-04-30,2023-04-28,65,received
+PO2304-9676,PO2304-9676-01,501,1,30009,MTN-VC-01,60,29506,2023-04-19,2023-04-26,2023-04-28,60,received
+PO2304-9676,PO2304-9676-02,501,1,30036,BP-TG-01,10,9761,2023-04-19,2023-04-26,2023-04-28,10,received

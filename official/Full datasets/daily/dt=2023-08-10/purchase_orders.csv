@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2307-9784,PO2307-9784-01,505,1,30051,LM-DA-01,140,76667,2023-07-26,2023-08-09,2023-08-10,140,received
+PO2308-9791,PO2308-9791-01,501,1,30007,MTN-HL-02,150,11408,2023-08-02,2023-08-09,2023-08-10,150,received
+PO2308-9791,PO2308-9791-02,501,1,30010,MTN-VC-02,60,31169,2023-08-02,2023-08-09,2023-08-10,60,received

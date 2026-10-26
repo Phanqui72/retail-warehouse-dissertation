@@ -1,0 +1,4 @@
+comment_id,order_id,marketplace_order_sn,shop_code,item_id,model_id,product_id,rating_star,comment_text,image_count,is_replied,is_hidden,review_status_code,created_at,modified_at,review_date
+9000000117,1000101,1B7A21BFBDC077,SHP_MALL,2200077515,22000775154,30004,3,"Tạm được, màu đen hơi khác ảnh",0,True,False,1,2021-01-05 10:06:11,2021-01-05 10:06:11,2021-01-05
+9000000198,1000153,F4E00F183F0790,SHP_MALL,2201030011,22010300113,30048,5,"Mút mềm, tán nền mịn lắm, sẽ ủng hộ tiếp",0,False,False,1,2021-01-05 15:22:49,2021-01-05 15:22:49,2021-01-05
+9000000262,1000178,63951ADBB5AA08,LZD_01,2205156054,22051560542,30014,5,,0,True,False,1,2021-01-05 16:31:04,2021-01-05 16:31:04,2021-01-05

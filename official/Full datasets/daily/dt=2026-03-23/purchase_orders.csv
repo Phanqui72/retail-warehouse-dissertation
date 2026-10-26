@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2603-10759,PO2603-10759-01,505,1,30052,LM-DA-02,30,80083,2026-03-11,2026-03-25,2026-03-23,30,received
+PO2603-10759,PO2603-10759-02,505,1,30054,GS-DA-02,30,57130,2026-03-11,2026-03-25,2026-03-23,30,received
+PO2603-10768,PO2603-10768-01,504,1,30049,BTT-VA-01,30,25676,2026-03-18,2026-03-23,2026-03-23,39,received

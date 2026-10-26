@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2512-10678,PO2512-10678-01,501,1,30002,MTN-GN-02,500,16399,2025-12-03,2025-12-10,2025-12-11,500,received
+PO2512-10678,PO2512-10678-02,501,1,30011,MTN-HY-01,380,23471,2025-12-03,2025-12-10,2025-12-11,323,received
+PO2512-10678,PO2512-10678-03,501,1,30035,BP-TR-03,160,7150,2025-12-03,2025-12-10,2025-12-11,160,received

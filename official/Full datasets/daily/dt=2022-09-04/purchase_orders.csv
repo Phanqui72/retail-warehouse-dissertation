@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2208-9440,PO2208-9440-01,502,2,30018,CP-PP-01,110,46753,2022-08-10,2022-09-04,2022-09-04,110,received
+PO2208-9440,PO2208-9440-02,502,2,30071,NRC-VS-02,10,48496,2022-08-10,2022-09-04,2022-09-04,10,received
+PO2208-9440,PO2208-9440-03,502,2,30072,TRC-SL-01,80,13573,2022-08-10,2022-09-04,2022-09-04,80,received

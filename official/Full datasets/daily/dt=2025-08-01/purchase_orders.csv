@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2507-10537,PO2507-10537-01,501,2,30036,BP-TG-01,310,10398,2025-07-23,2025-07-30,2025-08-01,310,received

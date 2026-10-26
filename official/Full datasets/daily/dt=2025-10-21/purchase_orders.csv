@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2510-10633,PO2510-10633-01,504,2,30046,BTT-HP-01,250,8959,2025-10-15,2025-10-20,2025-10-21,250,received
+PO2510-10633,PO2510-10633-02,504,2,30049,BTT-VA-01,60,25841,2025-10-15,2025-10-20,2025-10-21,60,received

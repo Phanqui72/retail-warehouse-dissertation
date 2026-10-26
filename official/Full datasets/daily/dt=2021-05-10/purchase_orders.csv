@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2104-9032,PO2104-9032-01,503,1,30045,DC-MY-02,50,11205,2021-04-21,2021-05-12,2021-05-10,50,received

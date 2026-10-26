@@ -1,0 +1,96 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2026-04-08",
+ "source": "oms_extract_sim",
+ "generated_at": "2026-04-09T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 352,
+   "bytes": 70469,
+   "md5": "9db2e4ab1194e205218128892b7af1b5",
+   "schema_version": "v2"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 237,
+   "bytes": 19988,
+   "md5": "689a8c22caab0af9a099749d65a2ed15",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 178,
+   "bytes": 9449,
+   "md5": "6b1ce3624b544b6ad978d472e8cb192e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 996,
+   "bytes": 38997,
+   "md5": "3d4bfe462fdd78416676191f8503ef9e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 164,
+   "bytes": 12030,
+   "md5": "2e8b349c1b053c32d7eb66b4e77d889a",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 65,
+   "bytes": 11028,
+   "md5": "8e0b8fa6908ca1d7df8c4d68e2f80fcc",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 190,
+   "bytes": 17944,
+   "md5": "3a61c0085a65d81e1988f25c7f4b9d11",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 269,
+   "bytes": 11730,
+   "md5": "855170549dff208bbcb5376521ac0160",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "purchase_orders",
+   "file": "purchase_orders.csv",
+   "rows": 18,
+   "bytes": 1777,
+   "md5": "025ed830f8e23b4ef6127eeb7b313f76",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 162,
+   "bytes": 22335,
+   "md5": "3de6bffcc54439b28f856feb91759a93",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 12,
+   "bytes": 861,
+   "md5": "987e2f2f7f34794f706f298ad58b1f0b",
+   "schema_version": "v1"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2110-9170,PO2110-9170-01,501,2,30002,MTN-GN-02,260,14144,2021-10-06,2021-10-13,2021-10-15,237,received

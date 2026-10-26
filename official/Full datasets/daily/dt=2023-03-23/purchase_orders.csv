@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2303-9634,PO2303-9634-01,505,1,30053,GS-DA-01,130,50889,2023-03-08,2023-03-22,2023-03-23,117,received
+PO2303-9637,PO2303-9637-01,505,2,30052,LM-DA-02,30,74744,2023-03-08,2023-03-22,2023-03-23,30,received
+PO2303-9651,PO2303-9651-03,503,1,30075,GU-LED-01,50,135966,2023-03-22,2023-04-12,2023-03-19,50,received

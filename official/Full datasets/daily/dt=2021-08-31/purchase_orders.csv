@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2108-9131,PO2108-9131-01,501,1,30033,BP-TR-01,80,6370,2021-08-25,2021-09-01,2021-08-31,80,received

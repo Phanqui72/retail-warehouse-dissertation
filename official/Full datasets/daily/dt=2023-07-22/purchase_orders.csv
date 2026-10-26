@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2307-9759,PO2307-9759-01,505,1,30054,GS-DA-02,30,51264,2023-07-05,2023-07-19,2023-07-22,30,received

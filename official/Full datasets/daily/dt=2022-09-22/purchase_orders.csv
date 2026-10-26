@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2208-9449,PO2208-9449-01,502,1,30015,CN-DB-03,70,42656,2022-08-24,2022-09-18,2022-09-22,70,received
+PO2208-9449,PO2208-9449-02,502,1,30016,CN-KB-01,30,50498,2022-08-24,2022-09-18,2022-09-22,30,received
+PO2208-9449,PO2208-9449-03,502,1,30017,CN-KB-02,10,50823,2022-08-24,2022-09-18,2022-09-22,10,received

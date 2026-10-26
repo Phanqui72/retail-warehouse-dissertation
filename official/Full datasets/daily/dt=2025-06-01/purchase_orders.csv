@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2505-10454,PO2505-10454-01,503,1,30040,KM-MN-01,70,20498,2025-05-07,2025-05-28,2025-06-01,70,received
+PO2505-10454,PO2505-10454-02,503,1,30080,TU-MP-01,100,52614,2025-05-07,2025-05-28,2025-06-01,100,received

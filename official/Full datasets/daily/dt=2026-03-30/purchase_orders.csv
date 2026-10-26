@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2603-10764,PO2603-10764-01,503,2,30056,BT-TB-02,50,7836,2026-03-11,2026-04-01,2026-03-30,50,received

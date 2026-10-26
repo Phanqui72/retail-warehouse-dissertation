@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2111-9193,PO2111-9193-01,503,2,30043,NH-MY-02,60,12130,2021-11-03,2021-11-24,2021-11-30,60,received
+PO2111-9193,PO2111-9193-02,503,2,30058,BD-RM-01,80,9246,2021-11-03,2021-11-24,2021-11-30,80,received
+PO2111-9193,PO2111-9193-03,503,2,30059,BD-RM-02,20,9047,2021-11-03,2021-11-24,2021-11-30,20,received

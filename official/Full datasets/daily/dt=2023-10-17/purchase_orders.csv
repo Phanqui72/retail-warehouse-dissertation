@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2310-9867,PO2310-9867-01,504,1,30046,BTT-HP-01,150,8784,2023-10-11,2023-10-16,2023-10-17,150,received
+PO2310-9867,PO2310-9867-02,504,1,30047,BTT-HP-02,440,11638,2023-10-11,2023-10-16,2023-10-17,440,received
+PO2310-9867,PO2310-9867-03,504,1,30048,BTT-HP-03,180,18221,2023-10-11,2023-10-16,2023-10-17,153,received

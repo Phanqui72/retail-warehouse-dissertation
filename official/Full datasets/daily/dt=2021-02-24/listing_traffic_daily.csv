@@ -1,0 +1,17 @@
+stat_date,shop_code,stat_period,item_id,item_name,item_status_code,display_tag,impressions,unique_impressions,clicks,unique_clicks,search_clicks,page_views,unique_visitors,bounce_visitors,likes,add_to_cart_qty,add_to_cart_buyers,placed_orders,placed_qty,placed_amount,placed_buyers,paid_orders,paid_qty,paid_amount,paid_buyers,confirmed_orders,confirmed_qty,confirmed_amount,confirmed_buyers
+2021-02-24,SHP_MALL,daily,2200077515,[Shopee] Mút tán nền giọt nước,1,,2367,1446,102,77,48,140,77,29,2,17,13,7,7,292100,7,7,7,292100,7,7,7,292100,7
+2021-02-24,SHP_MALL,daily,2200110777,[Shopee] Mút tán nền hồ lô,1,,2238,1618,66,57,37,100,57,21,0,6,4,2,3,100300,2,2,3,100300,2,2,3,100300,2
+2021-02-24,SHP_MALL,daily,2200226815,[Shopee] Cọ nền đầu bằng,1,,1715,1072,63,47,29,72,47,21,1,5,4,2,2,227100,2,2,2,227100,2,2,2,227100,2
+2021-02-24,SHP_MALL,daily,2200554872,[Shopee] Bộ cọ trang điểm 12 cây,1,,756,538,25,19,11,31,19,8,0,10,8,1,4,1683600,1,0,0,0,0,0,0,0,0
+2021-02-24,SHP_MALL,daily,2200706154,[Shopee] Bông phấn tròn,1,,5457,3780,159,123,93,241,123,43,1,17,13,6,8,176700,6,5,5,109500,5,4,4,87700,4
+2021-02-24,SHP_MALL,daily,2200811265,[Shopee] Kẹp mi inox,1,,42,28,2,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021-02-24,SHP_MALL,daily,2201030011,[Shopee] Bông tẩy trang,1,,3458,2425,145,111,79,228,111,49,3,35,28,9,13,451400,9,7,11,370600,7,6,10,338200,6
+2021-02-24,SHP_MALL,daily,2201145957,[Shopee] Bông tắm tạo bọt,1,,244,183,5,3,2,5,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021-02-24,LZD_01,daily,2205028910,[Lazada] Mút tán nền giọt nước,1,,1281,816,50,41,24,55,41,19,1,12,9,3,4,164900,3,3,4,164900,3,3,4,164900,3
+2021-02-24,LZD_01,daily,2205037104,[Lazada] Mút tán nền hồ lô,1,,908,690,21,15,9,33,15,7,0,2,1,1,1,33600,1,1,1,33600,1,1,1,33600,1
+2021-02-24,LZD_01,daily,2205156054,[Lazada] Cọ nền đầu bằng,1,,677,532,19,14,9,25,14,8,0,2,1,1,1,114500,1,1,1,114500,1,1,1,114500,1
+2021-02-24,LZD_01,daily,2205393768,[Lazada] Bộ cọ trang điểm 12 cây,1,,37,26,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021-02-24,LZD_01,daily,2205466599,[Lazada] Bông phấn tròn,1,,1195,904,39,31,17,52,31,11,1,5,4,2,2,43100,2,2,2,43100,2,2,2,43100,2
+2021-02-24,LZD_01,daily,2205552384,[Lazada] Kẹp mi inox,1,,111,84,5,3,1,7,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021-02-24,LZD_01,daily,2205795501,[Lazada] Bông tẩy trang,1,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2021-02-24,LZD_01,daily,2205939075,[Lazada] Bông tắm tạo bọt,1,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2207-9405,PO2207-9405-01,502,1,30016,CN-KB-01,10,49961,2022-07-13,2022-08-07,2022-08-07,10,received
+PO2207-9405,PO2207-9405-02,502,1,30021,CM-XE-02,80,24513,2022-07-13,2022-08-07,2022-08-07,80,received
+PO2207-9405,PO2207-9405-03,502,1,30022,CC-KD-01,80,18389,2022-07-13,2022-08-07,2022-08-07,72,received

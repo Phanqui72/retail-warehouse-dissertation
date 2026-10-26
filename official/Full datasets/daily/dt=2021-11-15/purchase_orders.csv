@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2110-9190,PO2110-9190-01,503,2,30042,NH-MY-01,220,12580,2021-10-27,2021-11-17,2021-11-15,220,received

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2106-9072,PO2106-9072-01,503,2,30062,LC-GR-02,20,27419,2021-06-09,2021-06-30,2021-06-29,20,received

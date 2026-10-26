@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2311-9916,PO2311-9916-01,503,1,30060,BD-RM-03,100,9958,2023-11-29,2023-12-20,2023-12-21,130,received
+PO2311-9916,PO2311-9916-02,503,1,30068,KT-CC-03,310,6151,2023-11-29,2023-12-20,2023-12-21,310,received
+PO2311-9916,PO2311-9916-03,503,1,30085,HD-CO-02,190,17453,2023-11-29,2023-12-20,2023-12-21,190,received

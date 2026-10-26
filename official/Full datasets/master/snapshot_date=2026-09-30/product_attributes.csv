@@ -1,0 +1,261 @@
+product_id,product_code,attribute_name,attribute_value
+30001,MTN-GN-01,color,Trắng
+30001,MTN-GN-01,material,Foam không latex
+30001,MTN-GN-01,shape,Giọt nước
+30002,MTN-GN-02,color,Hồng phấn
+30002,MTN-GN-02,material,Foam không latex
+30002,MTN-GN-02,shape,Giọt nước
+30003,MTN-GN-03,color,Be
+30003,MTN-GN-03,material,Foam không latex
+30003,MTN-GN-03,shape,Giọt nước
+30004,MTN-GN-04,color,Đen
+30004,MTN-GN-04,material,Foam không latex
+30004,MTN-GN-04,shape,Giọt nước
+30005,MTN-GN-05,color,Tím pastel
+30005,MTN-GN-05,material,Foam không latex
+30005,MTN-GN-05,shape,Giọt nước
+30006,MTN-HL-01,color,Trắng
+30006,MTN-HL-01,material,Foam không latex
+30006,MTN-HL-01,shape,Hồ lô
+30007,MTN-HL-02,color,Hồng
+30007,MTN-HL-02,material,Foam không latex
+30007,MTN-HL-02,shape,Hồ lô
+30008,MTN-HL-03,color,Cam đào
+30008,MTN-HL-03,material,Foam không latex
+30008,MTN-HL-03,shape,Hồ lô
+30009,MTN-VC-01,color,Hồng
+30009,MTN-VC-01,material,Foam không latex
+30009,MTN-VC-01,shape,Vát cạnh
+30009,MTN-VC-01,pack_qty,4
+30010,MTN-VC-02,color,Be
+30010,MTN-VC-02,material,Foam không latex
+30010,MTN-VC-02,shape,Vát cạnh
+30010,MTN-VC-02,pack_qty,4
+30011,MTN-HY-01,color,Trắng
+30011,MTN-HY-01,material,Foam hydrophilic
+30011,MTN-HY-01,shape,Giọt nước
+30012,MTN-HY-02,color,Xanh mint
+30012,MTN-HY-02,material,Foam hydrophilic
+30012,MTN-HY-02,shape,Giọt nước
+30013,CN-DB-01,color,Bạc
+30013,CN-DB-01,material,Lông tổng hợp
+30013,CN-DB-01,shape,Đầu bằng
+30014,CN-DB-02,color,Đen
+30014,CN-DB-02,material,Lông tổng hợp
+30014,CN-DB-02,shape,Đầu bằng
+30015,CN-DB-03,color,Vàng hồng
+30015,CN-DB-03,material,Lông tổng hợp
+30015,CN-DB-03,shape,Đầu bằng
+30016,CN-KB-01,color,Bạc
+30016,CN-KB-01,material,Lông tổng hợp
+30016,CN-KB-01,shape,Đầu tròn
+30017,CN-KB-02,color,Đen
+30017,CN-KB-02,material,Lông tổng hợp
+30017,CN-KB-02,shape,Đầu tròn
+30018,CP-PP-01,color,Bạc
+30018,CP-PP-01,material,Lông tổng hợp
+30018,CP-PP-01,shape,Đầu tròn lớn
+30019,CP-PP-02,color,Vàng hồng
+30019,CP-PP-02,material,Lông tổng hợp
+30019,CP-PP-02,shape,Đầu tròn lớn
+30020,CM-XE-01,color,Đen
+30020,CM-XE-01,material,Lông tổng hợp
+30020,CM-XE-01,shape,Đầu xéo
+30021,CM-XE-02,color,Hồng
+30021,CM-XE-02,material,Lông tổng hợp
+30021,CM-XE-02,shape,Đầu xéo
+30022,CC-KD-01,material,Lông tổng hợp
+30022,CC-KD-01,shape,Đầu dẹt
+30022,CC-KD-01,size,Nhỏ
+30023,CC-KD-02,material,Lông tổng hợp
+30023,CC-KD-02,shape,Đầu dẹt
+30023,CC-KD-02,size,Vừa
+30024,CM-DT-01,material,Lông tổng hợp
+30024,CM-DT-01,shape,Đầu tròn nhỏ
+30024,CM-DT-01,size,Nhỏ
+30025,CM-DT-02,material,Lông tổng hợp
+30025,CM-DT-02,shape,Đầu tròn nhỏ
+30025,CM-DT-02,size,Lớn
+30026,BC-M5-01,color,Bạc
+30026,BC-M5-01,material,Lông tổng hợp
+30026,BC-M5-01,shape,Bộ
+30026,BC-M5-01,pack_qty,5
+30027,BC-M5-02,color,Đen
+30027,BC-M5-02,material,Lông tổng hợp
+30027,BC-M5-02,shape,Bộ
+30027,BC-M5-02,pack_qty,5
+30028,BC-12-01,color,Bạc
+30028,BC-12-01,material,Lông tổng hợp
+30028,BC-12-01,shape,Bộ
+30028,BC-12-01,pack_qty,12
+30029,BC-12-02,color,Vàng hồng
+30029,BC-12-02,material,Lông tổng hợp
+30029,BC-12-02,shape,Bộ
+30029,BC-12-02,pack_qty,12
+30030,BC-12-03,color,Đen
+30030,BC-12-03,material,Lông tổng hợp
+30030,BC-12-03,shape,Bộ
+30030,BC-12-03,pack_qty,12
+30031,BC-DL7-01, color,Hồng
+30031,BC-DL7-01,material,Lông tổng hợp
+30031,BC-DL7-01,shape,Bộ
+30031,BC-DL7-01,pack_qty,7
+30032,BC-DL7-02,color,Trắng
+30032,BC-DL7-02,material,Lông tổng hợp
+30032,BC-DL7-02,shape,Bộ
+30032,BC-DL7-02,pack_qty,7
+30033,BP-TR-01,color,Trắng
+30033,BP-TR-01,material,Nhung
+30033,BP-TR-01,shape,Tròn
+30034,BP-TR-02,color,Hồng
+30034,BP-TR-02,material,Nhung
+30034,BP-TR-02,shape,Tròn
+30035,BP-TR-03,color,Be
+30035,BP-TR-03,material,Nhung
+30035,BP-TR-03,shape,Tròn
+30036,BP-TG-01,color,Trắng
+30036,BP-TG-01,material,Nhung
+30036,BP-TG-01,shape,Tam giác
+30036,BP-TG-01,pack_qty,2
+30037,BP-TG-02,color,Be
+30037,BP-TG-02,material,Nhung
+30037,BP-TG-02,shape,Tam giác
+30037,BP-TG-02,pack_qty,2
+30038,KM-IN-01,color,Bạc
+30038,KM-IN-01,material,Inox
+30038,KM-IN-01,shape,Cong rộng
+30039,KM-IN-02,color,Vàng hồng
+30039,KM-IN-02,material,Inox
+30039,KM-IN-02,shape,Cong rộng
+30040,KM-MN-01,color,Bạc
+30040,KM-MN-01,material,Inox
+30040,KM-MN-01,shape,Mini
+30041,KM-MN-02,color,Đen
+30041,KM-MN-02,material,Inox
+30041,KM-MN-02,shape,Mini
+30042,NH-MY-01,material,Inox
+30042,NH-MY-01,shape,Đầu xéo
+30043,NH-MY-02,material,Inox
+30043,NH-MY-02,shape,Đầu nhọn
+30044,DC-MY-01,material,Thép không gỉ
+30044,DC-MY-01,pack_qty,3
+30045,DC-MY-02,material,Thép không gỉ
+30045,DC-MY-02,pack_qty,6
+30046,BTT-HP-01,material,Cotton
+30046,BTT-HP-01,shape,Vuông
+30046,BTT-HP-01,pack_qty,80
+30047,BTT-HP-02,material,Cotton
+30047,BTT-HP-02,shape,Vuông
+30047,BTT-HP-02,pack_qty,120
+30048,BTT-HP-03,material,Cotton
+30048,BTT-HP-03,shape,Vuông
+30048,BTT-HP-03,pack_qty,222
+30049,BTT-VA-01,material,Vải tre
+30049,BTT-VA-01,shape,Tròn
+30049,BTT-VA-01,pack_qty,5
+30050,BTT-VA-02,material,Vải tre
+30050,BTT-VA-02,shape,Tròn
+30050,BTT-VA-02,pack_qty,10
+30051,LM-DA-01,material,Thạch anh hồng
+30051,LM-DA-01,shape,Lăn đôi
+30052,LM-DA-02,material,Ngọc bích
+30052,LM-DA-02,shape,Lăn đôi
+30053,GS-DA-01,material,Thạch anh hồng
+30053,GS-DA-01,shape,Trái tim
+30054,GS-DA-02,material,Ngọc bích
+30054,GS-DA-02,shape,Trái tim
+30055,BT-TB-01,color,Hồng
+30055,BT-TB-01,material,Lưới nylon
+30055,BT-TB-01,shape,Tròn
+30056,BT-TB-02,color,Xanh
+30056,BT-TB-02,material,Lưới nylon
+30056,BT-TB-02,shape,Tròn
+30057,BT-TB-03,color,Trắng
+30057,BT-TB-03,material,Lưới nylon
+30057,BT-TB-03,shape,Tròn
+30058,BD-RM-01,color,Hồng
+30058,BD-RM-01,material,Lông nhung
+30058,BD-RM-01,shape,Tai thỏ
+30059,BD-RM-02,color,Trắng
+30059,BD-RM-02,material,Lông nhung
+30059,BD-RM-02,shape,Tai thỏ
+30060,BD-RM-03,color,Kem
+30060,BD-RM-03,material,Lông nhung
+30060,BD-RM-03,shape,Tai thỏ
+30061,LC-GR-01,color,Đen
+30061,LC-GR-01,material,Nhựa ABS
+30061,LC-GR-01,shape,Oval
+30062,LC-GR-02,color,Hồng
+30062,LC-GR-02,material,Nhựa ABS
+30062,LC-GR-02,shape,Oval
+30063,LO-CT-01,material,Nhựa PP
+30063,LO-CT-01,shape,Trụ
+30063,LO-CT-01,size,S
+30064,LO-CT-02,material,Nhựa PP
+30064,LO-CT-02,shape,Trụ
+30064,LO-CT-02,size,M
+30065,LO-CT-03,material,Nhựa PP
+30065,LO-CT-03,shape,Trụ
+30065,LO-CT-03,size,L
+30066,KT-CC-01,color,Đen
+30066,KT-CC-01,material,Nhựa acrylic
+30066,KT-CC-01,shape,Càng cua
+30067,KT-CC-02,color,Nâu
+30067,KT-CC-02,material,Nhựa acrylic
+30067,KT-CC-02,shape,Càng cua
+30068,KT-CC-03,color,Kem
+30068,KT-CC-03,material,Nhựa acrylic
+30068,KT-CC-03,shape,Càng cua
+30069,KT-CC-04,color,Hồng
+30069,KT-CC-04,material,Nhựa acrylic
+30069,KT-CC-04,shape,Càng cua
+30070,NRC-VS-01,shape,Chai
+30070,NRC-VS-01,size,100ml
+30071,NRC-VS-02,shape,Chai
+30071,NRC-VS-02,size,250ml
+30072,TRC-SL-01,color,Hồng
+30072,TRC-SL-01,material,Silicon
+30072,TRC-SL-01,shape,Trái tim
+30073,TRC-SL-02,color,Xanh
+30073,TRC-SL-02,material,Silicon
+30073,TRC-SL-02,shape,Trái tim
+30074,GPC-CO-01,color,Trắng
+30074,GPC-CO-01,material,Nhựa ABS
+30074,GPC-CO-01,shape,Tháp
+30075,GU-LED-01,color,Trắng
+30075,GU-LED-01,material,Nhựa ABS
+30075,GU-LED-01,shape,Chữ nhật
+30076,GU-LED-02,color,Hồng
+30076,GU-LED-02,material,Nhựa ABS
+30076,GU-LED-02,shape,Chữ nhật
+30077,GU-CT-01,color,Trắng
+30077,GU-CT-01,material,Nhựa ABS
+30077,GU-CT-01,shape,Tròn
+30078,GU-CT-02,color,Hồng
+30078,GU-CT-02,material,Nhựa ABS
+30078,GU-CT-02,shape,Tròn
+30079,GU-CT-03,color,Đen
+30079,GU-CT-03,material,Nhựa ABS
+30079,GU-CT-03,shape,Tròn
+30080,TU-MP-01,color,Đen
+30080,TU-MP-01,material,Da PU
+30080,TU-MP-01,shape,Hộp
+30080,TU-MP-01,size,S
+30081,TU-MP-02,color,Hồng
+30081,TU-MP-02,material,Da PU
+30081,TU-MP-02,shape,Hộp
+30081,TU-MP-02,size,S
+30082,TU-MP-03,color,Đen
+30082,TU-MP-03,material,Da PU
+30082,TU-MP-03,shape,Hộp
+30082,TU-MP-03,size,M
+30083,TU-MP-04,color,Hồng
+30083,TU-MP-04,material,Da PU
+30083,TU-MP-04,shape,Hộp
+30083,TU-MP-04,size,M
+30084,HD-CO-01,color,Trắng
+30084,HD-CO-01,material,Nhựa acrylic
+30084,HD-CO-01,shape,Trụ
+30085,HD-CO-02,color,Hồng
+30085,HD-CO-02,material,Nhựa acrylic
+30085,HD-CO-02,shape,Trụ

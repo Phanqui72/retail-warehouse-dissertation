@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2411-10291,PO2411-10291-01,503,2,30055,BT-TB-01,310,7157,2024-11-13,2024-12-04,2024-12-02,310,received

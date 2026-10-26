@@ -1,0 +1,15 @@
+customer_id,customer_unique_id,customer_province_code,customer_province_name_raw,first_seen_channel
+c0375f75e074d2af,8a24ff5dcae2097bac611d9a5d9d2c10,92,Cần Thơ,SHP_MALL
+c0c8500d7ee384fb,1c1cec7c37d60c3be95f8922698cf5da,17,Hòa Bình,SHP_MALL
+c1fe70650a0c98b5,999bc9dd486692a4891a89cd3fade821,27,Bắc Ninh,SHP_MALL
+c433ca5c4ba61eab,777db117ae15a483427d83550ea08fd1,66,Đắk Lắk,SHP_MALL
+c5c36aaa30d8ffe6,286f2afc6131004edca5d81a95d0b9b8,22,Quảng Ninh,SHP_MALL
+c5ebd272e2db986b,dc3b953062e2c20e10898f20e3d00b84,40,Nghệ An,SHP_MALL
+c752f3e76ead9e94,7294a08ebe9fe882c85d2a1ca2db71c1,74,Bình Dương,WEB_01
+c784748e97efe430,bf3ce3d753e130c0838a07983c31f493,83,Bến Tre,SHP_MALL
+caa324a770a4bfe5,6387d507823cc7376026f1f5feb392f8,79,tp hcm,WEB_01
+caf343295806131a,69c6ff833b34d6ec644dcd123c646eab,92,Cần Thơ,SHP_MALL
+cc79160c1b0bbc6d,0a2e921774fcfaabda04ecabb403633a,72,Tây Ninh,SHP_MALL
+ce8e017f20f9439a,5c5a3331499c3e7dcfccb203303fd86a,79,Hồ Chí Minh,SHP_MALL
+cef6d76dc679ec38,3ca120445b29e73a857806d657e7f3b2,91,Kiên Giang,SHP_MALL
+cf28f6c991f1068c,15fd7112268bd7693b15897d1e5cae36,08,Tuyên Quang,SHP_MALL

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2107-9098,PO2107-9098-01,503,2,30078,GU-CT-02,80,13744,2021-07-14,2021-08-04,2021-08-05,72,received

@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2106-9082,PO2106-9082-01,503,2,30039,KM-IN-02,70,31786,2021-06-23,2021-07-14,2021-07-12,61,received
+PO2106-9082,PO2106-9082-02,503,2,30045,DC-MY-02,60,11497,2021-06-23,2021-07-14,2021-07-12,60,received
+PO2106-9082,PO2106-9082-03,503,2,30078,GU-CT-02,10,13894,2021-06-23,2021-07-14,2021-07-12,10,received
+PO2106-9082,PO2106-9082-04,503,2,30079,GU-CT-03,30,13438,2021-06-23,2021-07-14,2021-07-12,30,received

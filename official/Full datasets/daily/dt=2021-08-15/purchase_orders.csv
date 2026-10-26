@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2107-9105,PO2107-9105-01,503,2,30039,KM-IN-02,100,31639,2021-07-21,2021-08-11,2021-08-15,93,received
+PO2107-9105,PO2107-9105-02,503,2,30056,BT-TB-02,60,6760,2021-07-21,2021-08-11,2021-08-15,60,received
+PO2107-9105,PO2107-9105-03,503,2,30057,BT-TB-03,80,6512,2021-07-21,2021-08-11,2021-08-15,80,received

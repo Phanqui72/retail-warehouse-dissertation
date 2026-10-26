@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2405-10102,PO2405-10102-01,503,2,30042,NH-MY-01,330,13612,2024-05-29,2024-06-19,2024-06-22,330,received
+PO2405-10102,PO2405-10102-02,503,2,30066,KT-CC-01,250,6269,2024-05-29,2024-06-19,2024-06-22,250,received
+PO2405-10102,PO2405-10102-03,503,2,30068,KT-CC-03,290,6134,2024-05-29,2024-06-19,2024-06-22,290,received

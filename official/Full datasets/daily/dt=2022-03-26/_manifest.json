@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2022-03-26",
+ "source": "oms_extract_sim",
+ "generated_at": "2022-03-27T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 188,
+   "bytes": 36223,
+   "md5": "0cd4df4d852035bf78626bc853b015c8",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 166,
+   "bytes": 14017,
+   "md5": "62570b863680fe9e8c0106fa175bd3a4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 112,
+   "bytes": 5692,
+   "md5": "8542433bccdc03cf4c8bc79b2da8a17e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 566,
+   "bytes": 21907,
+   "md5": "47eb2c6907a7b585e1f15449ab014c6e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 104,
+   "bytes": 7696,
+   "md5": "251ee11c7ec9c65b39e5fa3139140f5f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 26,
+   "bytes": 4590,
+   "md5": "afd53c1b258e82f3d0ff0e6443b19840",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 108,
+   "bytes": 10264,
+   "md5": "396cd2853acec041b6bb582b9b2dd835",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 137,
+   "bytes": 5639,
+   "md5": "1a3081f0652d882dbf40c5ecb0daaae7",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 70,
+   "bytes": 9963,
+   "md5": "5ea5f51aa3ed89be9921e10007dcdd29",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 9,
+   "bytes": 674,
+   "md5": "44c8d48a5eaa5542352c7b0cbc2e53ae",
+   "schema_version": "v1"
+  }
+ ]
+}

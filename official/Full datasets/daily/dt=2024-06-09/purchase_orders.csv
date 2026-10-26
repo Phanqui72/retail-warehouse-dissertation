@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2405-10088,PO2405-10088-01,502,2,30032,BC-DL7-02,100,93250,2024-05-15,2024-06-09,2024-06-09,100,received
+PO2405-10088,PO2405-10088-02,502,2,30070,NRC-VS-01,180,28160,2024-05-15,2024-06-09,2024-06-09,171,received
+PO2405-10088,PO2405-10088-03,502,2,30072,TRC-SL-01,230,14467,2024-05-15,2024-06-09,2024-06-09,230,received

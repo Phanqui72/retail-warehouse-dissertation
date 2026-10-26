@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2511-10672,PO2511-10672-01,502,1,30021,CM-XE-02,120,27783,2025-11-26,2025-12-21,2025-12-21,118,received

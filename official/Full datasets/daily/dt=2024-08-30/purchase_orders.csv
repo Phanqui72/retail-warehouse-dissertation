@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2408-10192,PO2408-10192-01,505,2,30053,GS-DA-01,170,51389,2024-08-14,2024-08-28,2024-08-30,170,received

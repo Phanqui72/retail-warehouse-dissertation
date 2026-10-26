@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2301-9586,PO2301-9586-01,502,1,30018,CP-PP-01,80,49083,2023-01-18,2023-02-12,2023-02-10,80,received
+PO2301-9586,PO2301-9586-02,502,1,30024,CM-DT-01,10,15485,2023-01-18,2023-02-12,2023-02-10,10,received
+PO2301-9586,PO2301-9586-03,502,1,30032,BC-DL7-02,60,92052,2023-01-18,2023-02-12,2023-02-10,59,received

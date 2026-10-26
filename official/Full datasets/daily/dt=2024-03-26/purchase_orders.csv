@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2403-10023,PO2403-10023-01,504,1,30049,BTT-VA-01,40,24295,2024-03-20,2024-03-25,2024-03-26,40,received

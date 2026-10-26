@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2308-9805,PO2308-9805-01,502,1,30017,CN-KB-02,50,52503,2023-08-16,2023-09-10,2023-09-10,50,received

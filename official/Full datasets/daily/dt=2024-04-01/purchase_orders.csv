@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2403-10009,PO2403-10009-01,502,2,30017,CN-KB-02,60,53231,2024-03-06,2024-03-31,2024-04-01,60,received
+PO2403-10009,PO2403-10009-02,502,2,30070,NRC-VS-01,190,27147,2024-03-06,2024-03-31,2024-04-01,190,received
+PO2403-10032,PO2403-10032-01,504,1,30048,BTT-HP-03,210,17266,2024-03-27,2024-04-01,2024-04-01,210,received

@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2210-9504,PO2210-9504-01,501,1,30002,MTN-GN-02,320,14747,2022-10-19,2022-10-26,2022-10-28,320,received
+PO2210-9504,PO2210-9504-02,501,1,30005,MTN-GN-05,80,14581,2022-10-19,2022-10-26,2022-10-28,80,received
+PO2210-9504,PO2210-9504-03,501,1,30008,MTN-HL-03,80,11151,2022-10-19,2022-10-26,2022-10-28,80,received
+PO2210-9504,PO2210-9504-04,501,1,30035,BP-TR-03,90,6531,2022-10-19,2022-10-26,2022-10-28,90,received

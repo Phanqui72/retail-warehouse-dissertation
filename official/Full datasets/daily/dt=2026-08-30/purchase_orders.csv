@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2608-10928,PO2608-10928-01,505,1,30053,GS-DA-01,160,54835,2026-08-12,2026-08-26,2026-08-30,160,received
+PO2608-10937,PO2608-10937-01,501,2,30004,MTN-GN-04,310,17176,2026-08-19,2026-08-26,2026-08-30,310,received
+PO2608-10937,PO2608-10937-02,501,2,30007,MTN-HL-02,250,12692,2026-08-19,2026-08-26,2026-08-30,250,received

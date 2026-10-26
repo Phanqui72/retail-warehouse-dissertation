@@ -1,0 +1,3 @@
+comment_id,order_id,marketplace_order_sn,shop_code,item_id,model_id,product_id,rating_star,comment_text,image_count,is_replied,is_hidden,review_status_code,created_at,modified_at,review_date
+9000000007,1000014,3A015FFC489A2E,SHP_MALL,2201145957,22011459571,30055,5,Chất lượng tốt so với giá,3,True,False,1,2021-01-07 11:47:22,2021-01-07 11:47:22,2021-01-07
+9000000049,1000047,9AA56D677F7C23,SHP_MALL,2201030011,22010300112,30047,5,,0,False,False,1,2021-01-07 10:06:39,2021-01-07 10:06:39,2021-01-07

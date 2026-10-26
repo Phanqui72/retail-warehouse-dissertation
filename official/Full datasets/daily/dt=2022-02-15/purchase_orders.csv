@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2202-9268,PO2202-9268-01,504,2,30047,BTT-HP-02,370,11413,2022-02-09,2022-02-14,2022-02-15,370,received

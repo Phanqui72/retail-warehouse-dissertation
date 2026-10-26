@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2204-9334,PO2204-9334-01,503,1,30056,BT-TB-02,30,6892,2022-04-27,2022-05-18,2022-05-17,30,received
+PO2204-9334,PO2204-9334-02,503,1,30069,KT-CC-04,60,5843,2022-04-27,2022-05-18,2022-05-17,60,received

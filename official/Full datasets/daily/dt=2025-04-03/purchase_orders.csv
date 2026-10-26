@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2504-10418,PO2504-10418-02,503,1,30082,TU-MP-03,40,72805,2025-04-02,2025-04-23,2025-03-30,40,received

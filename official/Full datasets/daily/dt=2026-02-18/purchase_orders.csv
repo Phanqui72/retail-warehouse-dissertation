@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2602-10744,PO2602-10744-01,502,1,30027,BC-M5-02,50,79973,2026-02-18,2026-03-15,,,open
+PO2602-10745,PO2602-10745-01,504,1,30050,BTT-VA-02,30,43837,2026-02-18,2026-02-23,,,open
+PO2602-10738,PO2602-10738-01,501,1,30033,BP-TR-01,160,7731,2026-02-11,2026-02-18,2026-02-18,160,received

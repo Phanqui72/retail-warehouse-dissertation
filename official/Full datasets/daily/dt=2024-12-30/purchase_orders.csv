@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2412-10307,PO2412-10307-01,502,1,30016,CN-KB-01,100,52028,2024-12-04,2024-12-29,2024-12-30,100,received
+PO2412-10307,PO2412-10307-02,502,1,30029,BC-12-02,120,188463,2024-12-04,2024-12-29,2024-12-30,120,received
+PO2412-10334,PO2412-10334-01,504,2,30047,BTT-HP-02,890,11366,2024-12-25,2024-12-30,2024-12-30,890,received

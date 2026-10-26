@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2203-9308,PO2203-9308-01,502,2,30026,BC-M5-01,80,70140,2022-03-23,2022-04-17,2022-04-18,68,received
+PO2203-9308,PO2203-9308-02,502,2,30027,BC-M5-02,60,69786,2022-03-23,2022-04-17,2022-04-18,60,received
+PO2203-9308,PO2203-9308-03,502,2,30072,TRC-SL-01,100,13707,2022-03-23,2022-04-17,2022-04-18,100,received

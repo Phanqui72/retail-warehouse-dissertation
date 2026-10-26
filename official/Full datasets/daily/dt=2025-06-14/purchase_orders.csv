@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2505-10467,PO2505-10467-01,502,1,30016,CN-KB-01,90,55174,2025-05-21,2025-06-15,2025-06-14,90,received
+PO2505-10467,PO2505-10467-02,502,1,30032,BC-DL7-02,110,98015,2025-05-21,2025-06-15,2025-06-14,110,received
+PO2505-10467,PO2505-10467-03,502,1,30070,NRC-VS-01,130,28749,2025-05-21,2025-06-15,2025-06-14,130,received

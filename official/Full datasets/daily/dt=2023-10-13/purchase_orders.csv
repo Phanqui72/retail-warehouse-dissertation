@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2309-9847,PO2309-9847-01,503,2,30039,KM-IN-02,80,34616,2023-09-20,2023-10-11,2023-10-13,80,received
+PO2309-9847,PO2309-9847-02,503,2,30065,LO-CT-03,70,11004,2023-09-20,2023-10-11,2023-10-13,67,received
+PO2309-9847,PO2309-9847-03,503,2,30069,KT-CC-04,180,6163,2023-09-20,2023-10-11,2023-10-13,180,received
+PO2309-9847,PO2309-9847-04,503,2,30085,HD-CO-02,30,17542,2023-09-20,2023-10-11,2023-10-13,28,received

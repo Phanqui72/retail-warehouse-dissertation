@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-02-16",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-02-17T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 48,
+   "bytes": 9502,
+   "md5": "b07c19cb0b7782f3013f1187afefa99c",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 39,
+   "bytes": 3447,
+   "md5": "5dd86c83861f71d2e49c5bf34e395e3e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 28,
+   "bytes": 1447,
+   "md5": "a3301061e4a5c668e6fe09f492d46075",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 142,
+   "bytes": 5494,
+   "md5": "8d6f6d2f7d4e745d55316a1ca9b8ba99",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 28,
+   "bytes": 2123,
+   "md5": "90bdb0c270b4d39cdea9f22a84d79ba9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 8,
+   "bytes": 1502,
+   "md5": "d8598ae7654420fe4d570c33b65abaa6",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 9,
+   "bytes": 1057,
+   "md5": "0a8372872394ab96fac1125f07d23a66",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 50,
+   "bytes": 2160,
+   "md5": "2da7b0545e8f5e358754b66f0324c82f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 16,
+   "bytes": 2566,
+   "md5": "d8e75361b756316981e945876258911f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 475,
+   "md5": "c7ab7001dc4a390c1d14cd58b658eeff",
+   "schema_version": "v1"
+  }
+ ]
+}

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2507-10518,PO2507-10518-01,502,1,30026,BC-M5-01,120,81599,2025-07-09,2025-08-03,2025-08-02,120,received

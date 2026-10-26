@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2602-10742,PO2602-10742-01,501,2,30037,BP-TG-02,100,10848,2026-02-11,2026-02-18,2026-02-21,100,received

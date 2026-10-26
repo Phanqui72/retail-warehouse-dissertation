@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2606-10866,PO2606-10866-01,505,1,30051,LM-DA-01,150,80639,2026-06-17,2026-07-01,2026-07-03,150,received
+PO2606-10877,PO2606-10877-01,501,2,30035,BP-TR-03,140,7660,2026-06-24,2026-07-01,2026-07-03,140,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2403-10022,PO2403-10022-01,502,1,30024,CM-DT-01,50,15457,2024-03-20,2024-04-14,2024-04-20,50,received
+PO2403-10022,PO2403-10022-02,502,1,30025,CM-DT-02,40,15858,2024-03-20,2024-04-14,2024-04-20,40,received
+PO2403-10022,PO2403-10022-03,502,1,30070,NRC-VS-01,160,27037,2024-03-20,2024-04-14,2024-04-20,160,received

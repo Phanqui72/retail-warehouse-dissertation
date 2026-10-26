@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2109-9155,PO2109-9155-01,503,2,30042,NH-MY-01,170,12553,2021-09-15,2021-10-06,2021-10-04,170,received
+PO2109-9167,PO2109-9167-01,504,2,30047,BTT-HP-02,400,11038,2021-09-29,2021-10-04,2021-10-04,375,received

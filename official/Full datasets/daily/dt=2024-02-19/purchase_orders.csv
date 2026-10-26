@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2401-9969,PO2401-9969-01,502,1,30020,CM-XE-01,110,26109,2024-01-24,2024-02-18,2024-02-19,110,received
+PO2401-9969,PO2401-9969-02,502,1,30026,BC-M5-01,90,73601,2024-01-24,2024-02-18,2024-02-19,90,received
+PO2402-9992,PO2402-9992-01,504,2,30047,BTT-HP-02,360,11445,2024-02-14,2024-02-19,2024-02-19,360,received

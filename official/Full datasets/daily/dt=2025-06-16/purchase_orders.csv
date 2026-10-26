@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2505-10476,PO2505-10476-01,503,1,30066,KT-CC-01,240,6376,2025-05-28,2025-06-18,2025-06-16,240,received

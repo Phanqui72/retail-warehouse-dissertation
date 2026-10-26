@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10134,PO2406-10134-01,505,2,30052,LM-DA-02,40,73493,2024-06-26,2024-07-10,2024-07-13,40,received

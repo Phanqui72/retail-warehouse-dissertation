@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2401-9977,PO2401-9977-01,501,1,30001,MTN-GN-01,440,15992,2024-01-31,2024-02-07,2024-02-10,389,received
+PO2401-9977,PO2401-9977-02,501,1,30004,MTN-GN-04,170,15492,2024-01-31,2024-02-07,2024-02-10,170,received
+PO2401-9977,PO2401-9977-03,501,1,30009,MTN-VC-01,70,31038,2024-01-31,2024-02-07,2024-02-10,70,received

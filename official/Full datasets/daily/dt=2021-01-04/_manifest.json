@@ -1,0 +1,80 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-01-04",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-01-05T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 102,
+   "bytes": 20031,
+   "md5": "28a9abf7d2d75c0cf66699b11b11f015",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 92,
+   "bytes": 7903,
+   "md5": "0b3923b4e80c2ef084c35c27f5b58ea7",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 57,
+   "bytes": 2837,
+   "md5": "c331a80b863a46f029b065b8cbb035a4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 339,
+   "bytes": 13078,
+   "md5": "d1fbe9e7f539a6f4b3f5fa974301f58b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 54,
+   "bytes": 4026,
+   "md5": "c91ea58962c313525f192983d1233738",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 46,
+   "bytes": 4427,
+   "md5": "1c1b7e8a297aa2192cbac4d5db416d8f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 50,
+   "bytes": 2047,
+   "md5": "08f8fef08365986047a19aa70f932eb5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 16,
+   "bytes": 2695,
+   "md5": "65c107f86f0bd2944c9c5341adeaeba4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 482,
+   "md5": "f644507a19de93a1359bf643a0fa088a",
+   "schema_version": "v1"
+  }
+ ]
+}

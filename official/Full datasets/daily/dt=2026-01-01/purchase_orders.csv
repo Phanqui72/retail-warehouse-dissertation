@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2512-10689,PO2512-10689-01,503,1,30040,KM-MN-01,110,20793,2025-12-10,2025-12-31,2026-01-01,110,received
+PO2512-10689,PO2512-10689-02,503,1,30067,KT-CC-02,100,6568,2025-12-10,2025-12-31,2026-01-01,100,received
+PO2512-10689,PO2512-10689-03,503,1,30068,KT-CC-03,490,6532,2025-12-10,2025-12-31,2026-01-01,490,received

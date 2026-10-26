@@ -1,0 +1,39 @@
+snapshot_date,market_item_id,platform,hasaki_sku,item_name,brand_name,category_name,is_own_product,price,market_price,discount_percent,bought_count,sold_since_prev,stock_qty,rating_avg,rating_count,crawled_at,source_url
+2026-07-13,5000,hasaki,721440,Mút tán nền Puffy Lab #1,Sora Tools,Mút tán nền,False,60000,70000,14,5092,14,257,4.8,424,2026-07-13 02:37:00,https://www.hasaki.example/san-pham/721440
+2026-07-13,5001,hasaki,427820,Massage mặt Puffy Lab #2,Koko Beauty,Massage mặt,False,168000,187000,10,4940,14,147,4.4,406,2026-07-13 02:47:00,https://www.hasaki.example/san-pham/427820
+2026-07-13,5002,hasaki,487661,Mút tán nền Puffy Lab #3,Bellamie,Mút tán nền,False,44000,50000,11,3480,21,324,4.4,265,2026-07-13 02:26:00,https://www.hasaki.example/san-pham/487661
+2026-07-13,5003,hasaki,799089,Massage mặt Glowie #4,Glowie,Massage mặt,False,241000,292000,17,3606,11,174,4.7,283,2026-07-13 02:24:00,https://www.hasaki.example/san-pham/799089
+2026-07-13,5004,hasaki,609735,Bông tẩy trang Koko Beauty #5,Koko Beauty,Bông tẩy trang,False,34000,35000,3,4681,12,51,4.9,386,2026-07-13 02:12:00,https://www.hasaki.example/san-pham/609735
+2026-07-13,5005,hasaki,936696,Bộ cọ trang điểm Sora Tools #6,Koko Beauty,Bộ cọ trang điểm,False,414000,485000,15,4552,14,264,4.8,376,2026-07-13 02:27:00,https://www.hasaki.example/san-pham/936696
+2026-07-13,5006,hasaki,582726,Bộ cọ trang điểm Glowie #7,Glowie,Bộ cọ trang điểm,False,312000,365000,15,4055,9,370,4.7,315,2026-07-13 02:12:00,https://www.hasaki.example/san-pham/582726
+2026-07-13,5007,hasaki,367535,Bộ cọ trang điểm Puffy Lab #8,Koko Beauty,Bộ cọ trang điểm,False,445000,480000,7,5463,14,238,4.7,461,2026-07-13 02:02:00,https://www.hasaki.example/san-pham/367535
+2026-07-13,5008,hasaki,772824,Massage mặt Puffy Lab #9,Glowie,Massage mặt,False,204000,207000,2,5601,15,37,4.9,475,2026-07-13 02:12:00,https://www.hasaki.example/san-pham/772824
+2026-07-13,5009,hasaki,965432,Cọ nền & phấn Sora Tools #10,Bellamie,Cọ nền & phấn,False,159000,173000,8,5615,13,27,4.6,486,2026-07-13 02:29:00,https://www.hasaki.example/san-pham/965432
+2026-07-13,5010,hasaki,442906,Mút tán nền Sora Tools #11,Sora Tools,Mút tán nền,False,66000,75000,12,3983,14,173,4.8,317,2026-07-13 02:02:00,https://www.hasaki.example/san-pham/442906
+2026-07-13,5011,hasaki,375104,Mút tán nền Koko Beauty #12,Glowie,Mút tán nền,False,63000,72000,13,4389,22,284,4.6,354,2026-07-13 02:01:00,https://www.hasaki.example/san-pham/375104
+2026-07-13,5012,hasaki,652875,Bộ cọ trang điểm Sora Tools #13,Koko Beauty,Bộ cọ trang điểm,False,464000,507000,9,3456,11,65,4.3,263,2026-07-13 02:32:00,https://www.hasaki.example/san-pham/652875
+2026-07-13,5013,hasaki,111072,Bộ cọ trang điểm Bellamie #14,Bellamie,Bộ cọ trang điểm,False,497000,522000,5,5504,15,376,4.6,470,2026-07-13 02:42:00,https://www.hasaki.example/san-pham/111072
+2026-07-13,5014,hasaki,729870,Kẹp mi Glowie #15,Glowie,Kẹp mi,False,128000,137000,7,4338,14,75,4.7,353,2026-07-13 02:46:00,https://www.hasaki.example/san-pham/729870
+2026-07-13,5015,hasaki,221834,Bông tẩy trang Koko Beauty #16,Bellamie,Bông tẩy trang,False,37000,43000,14,5232,6,121,4.3,441,2026-07-13 02:49:00,https://www.hasaki.example/san-pham/221834
+2026-07-13,5016,hasaki,666146,Cọ nền & phấn Bellamie #17,Sora Tools,Cọ nền & phấn,False,145000,170000,15,3272,13,118,4.4,244,2026-07-13 02:22:00,https://www.hasaki.example/san-pham/666146
+2026-07-13,5017,hasaki,922957,Mút tán nền Glowie #18,Koko Beauty,Mút tán nền,False,57000,68000,16,4693,15,69,4.4,391,2026-07-13 02:08:00,https://www.hasaki.example/san-pham/922957
+2026-07-13,5018,hasaki,784905,Cọ nền & phấn Glowie #19,Sora Tools,Cọ nền & phấn,False,114000,125000,8,6010,14,136,4.2,516,2026-07-13 02:30:00,https://www.hasaki.example/san-pham/784905
+2026-07-13,5019,hasaki,765283,Mút tán nền Puffy Lab #20,Glowie,Mút tán nền,False,39000,47000,18,4178,16,297,4.4,336,2026-07-13 02:48:00,https://www.hasaki.example/san-pham/765283
+2026-07-13,5020,hasaki,901082,Massage mặt Sora Tools #21,Bellamie,Massage mặt,False,241000,265000,9,3510,12,353,4.6,263,2026-07-13 02:24:00,https://www.hasaki.example/san-pham/901082
+2026-07-13,5021,hasaki,659800,Massage mặt Puffy Lab #22,Bellamie,Massage mặt,False,180000,192000,6,3310,17,59,4.9,245,2026-07-13 02:14:00,https://www.hasaki.example/san-pham/659800
+2026-07-13,5022,hasaki,656849,Kẹp mi Glowie #23,Koko Beauty,Kẹp mi,False,70000,86000,19,3417,13,39,4.7,265,2026-07-13 02:03:00,https://www.hasaki.example/san-pham/656849
+2026-07-13,5023,hasaki,339581,Bông tẩy trang Bellamie #24,Bellamie,Bông tẩy trang,False,37000,43000,15,5032,17,130,4.8,423,2026-07-13 02:23:00,https://www.hasaki.example/san-pham/339581
+2026-07-13,5024,hasaki,982988,Mút tán nền Puffy Lab #25,Sora Tools,Mút tán nền,False,66000,75000,12,3979,15,148,4.8,314,2026-07-13 02:07:00,https://www.hasaki.example/san-pham/982988
+2026-07-13,5025,hasaki,551266,Cọ nền & phấn Glowie #26,Puffy Lab,Cọ nền & phấn,False,108000,122000,11,4328,17,90,4.2,356,2026-07-13 02:45:00,https://www.hasaki.example/san-pham/551266
+2026-07-13,5026,hasaki,189668,Kẹp mi Bellamie #27,Glowie,Kẹp mi,False,114000,133000,14,6166,11,297,4.4,533,2026-07-13 02:39:00,https://www.hasaki.example/san-pham/189668
+2026-07-13,5027,hasaki,945076,Bông tẩy trang Sora Tools #28,Bellamie,Bông tẩy trang,False,23000,26000,10,3855,15,166,4.5,299,2026-07-13 02:45:00,https://www.hasaki.example/san-pham/945076
+2026-07-13,5028,hasaki,160722,Cọ nền & phấn Sora Tools #29,Bellamie,Cọ nền & phấn,False,100000,118000,15,4619,14,314,4.8,376,2026-07-13 02:20:00,https://www.hasaki.example/san-pham/160722
+2026-07-13,5029,hasaki,441956,Kẹp mi Koko Beauty #30,Bellamie,Kẹp mi,False,101000,113000,10,4307,20,196,4.6,350,2026-07-13 02:39:00,https://www.hasaki.example/san-pham/441956
+2026-07-13,6019,hasaki,373260,Cọ phấn phủ Velia - Vàng hồng,Velia Beauty,Cọ nền & phấn,True,133000,158000,16,4459,14,340,4.5,367,2026-07-13 02:24:00,https://www.hasaki.example/san-pham/373260
+2026-07-13,6061,hasaki,965145,Lược gỡ rối Velia - Đen,Velia Beauty,Lược & lô cuốn,True,99000,101000,2,3788,15,58,4.7,291,2026-07-13 02:15:00,https://www.hasaki.example/san-pham/965145
+2026-07-13,6062,hasaki,562326,Lược gỡ rối Velia - Hồng,Velia Beauty,Lược & lô cuốn,True,81000,101000,19,4328,20,258,4.3,353,2026-07-13 02:47:00,https://www.hasaki.example/san-pham/562326
+2026-07-13,6039,hasaki,613220,Kẹp mi inox Velia - Vàng hồng,Velia Beauty,Kẹp mi,True,91000,112000,18,5193,13,368,4.3,436,2026-07-13 02:11:00,https://www.hasaki.example/san-pham/613220
+2026-07-13,6038,hasaki,305984,Kẹp mi inox Velia - Bạc,Velia Beauty,Kẹp mi,True,109000,112000,3,4984,14,356,4.8,413,2026-07-13 02:38:00,https://www.hasaki.example/san-pham/305984
+2026-07-13,6005,hasaki,753032,Mút tán nền giọt nước Velia - Tím pastel,Velia Beauty,Mút tán nền,True,52000,56000,8,4152,17,158,4.6,332,2026-07-13 02:45:00,https://www.hasaki.example/san-pham/753032
+2026-07-13,6082,hasaki,404782,Túi đựng mỹ phẩm Velia - Đen / M,Velia Beauty,Túi & hộp đựng,True,174000,203000,14,3362,20,84,4.8,257,2026-07-13 02:07:00,https://www.hasaki.example/san-pham/404782
+2026-07-13,6010,hasaki,521193,Mút vát cạnh hộp 4 Velia - Be / 4 cái,Velia Beauty,Mút tán nền,True,97000,101000,4,6074,16,171,4.6,519,2026-07-13 02:27:00,https://www.hasaki.example/san-pham/521193

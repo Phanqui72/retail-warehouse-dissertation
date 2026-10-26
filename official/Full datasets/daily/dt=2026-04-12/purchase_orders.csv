@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2603-10770,PO2603-10770-01,502,2,30015,CN-DB-03,130,49183,2026-03-18,2026-04-12,2026-04-12,130,received
+PO2603-10770,PO2603-10770-02,502,2,30030,BC-12-03,70,192346,2026-03-18,2026-04-12,2026-04-12,61,received

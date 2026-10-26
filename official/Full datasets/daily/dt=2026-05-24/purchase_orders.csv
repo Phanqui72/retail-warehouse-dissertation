@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2604-10811,PO2604-10811-01,502,1,30022,CC-KD-01,100,20494,2026-04-29,2026-05-24,2026-05-24,100,received
+PO2604-10811,PO2604-10811-02,502,1,30071,NRC-VS-02,30,57819,2026-04-29,2026-05-24,2026-05-24,30,received
+PO2604-10811,PO2604-10811-03,502,1,30074,GPC-CO-01,70,24350,2026-04-29,2026-05-24,2026-05-24,70,received

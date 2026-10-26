@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2306-9751,PO2306-9751-01,502,1,30026,BC-M5-01,90,75848,2023-06-28,2023-07-23,2023-07-27,90,received
+PO2306-9751,PO2306-9751-02,502,1,30032,BC-DL7-02,80,92915,2023-06-28,2023-07-23,2023-07-27,80,received
+PO2306-9751,PO2306-9751-03,502,1,30070,NRC-VS-01,140,27296,2023-06-28,2023-07-23,2023-07-27,140,received
+PO2306-9751,PO2306-9751-04,502,1,30074,GPC-CO-01,50,22673,2023-06-28,2023-07-23,2023-07-27,50,received

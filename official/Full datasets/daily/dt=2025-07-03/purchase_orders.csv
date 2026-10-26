@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2506-10486,PO2506-10486-01,502,2,30024,CM-DT-01,90,15996,2025-06-04,2025-06-29,2025-07-03,90,received
+PO2506-10505,PO2506-10505-01,501,1,30002,MTN-GN-02,340,15991,2025-06-25,2025-07-02,2025-07-03,340,received
+PO2506-10505,PO2506-10505-02,501,1,30009,MTN-VC-01,70,32486,2025-06-25,2025-07-02,2025-07-03,70,received

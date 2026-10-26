@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-04-25",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-04-26T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 134,
+   "bytes": 24629,
+   "md5": "a5e71316495a2ce55d5778af604f2a97",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 144,
+   "bytes": 12275,
+   "md5": "ed5528d23b2c02142df9b5b1c21c875d",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 104,
+   "bytes": 5227,
+   "md5": "0c53772ba65c3451a9f9c74e0196df2b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 451,
+   "bytes": 17288,
+   "md5": "1747b3207179d8b785e5b0db22cfd57f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 100,
+   "bytes": 7424,
+   "md5": "3489fc02c0c3f8709f9d889098573227",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 11,
+   "bytes": 1917,
+   "md5": "e19afd50a576b3e94f99426f1171fbe8",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 58,
+   "bytes": 5595,
+   "md5": "b60df81fb3a0df26a2dad857e4e066d3",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 58,
+   "bytes": 2498,
+   "md5": "af4e4859f029c126d37f28c5010f7433",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 26,
+   "bytes": 4046,
+   "md5": "2823912c8ee8087d9821336d1be020ce",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 486,
+   "md5": "bd584d86ef86cdac4d41b9a5a375893f",
+   "schema_version": "v1"
+  }
+ ]
+}

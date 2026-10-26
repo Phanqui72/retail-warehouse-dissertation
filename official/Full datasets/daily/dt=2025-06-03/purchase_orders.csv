@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2505-10453,PO2505-10453-02,502,1,30073,TRC-SL-02,100,15531,2025-05-07,2025-06-01,2025-06-03,100,received
+PO2505-10457,PO2505-10457-01,502,2,30019,CP-PP-02,70,51344,2025-05-07,2025-06-01,2025-06-03,70,received
+PO2505-10457,PO2505-10457-02,502,2,30021,CM-XE-02,150,27474,2025-05-07,2025-06-01,2025-06-03,150,received

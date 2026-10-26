@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2308-9811,PO2308-9811-01,501,1,30001,MTN-GN-01,370,15927,2023-08-23,2023-08-30,2023-09-01,370,received
+PO2308-9813,PO2308-9813-01,504,1,30049,BTT-VA-01,10,23650,2023-08-23,2023-08-28,2023-09-01,10,received

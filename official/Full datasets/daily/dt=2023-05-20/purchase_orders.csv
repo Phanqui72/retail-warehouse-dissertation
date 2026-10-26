@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2305-9693,PO2305-9693-01,505,1,30052,LM-DA-02,20,75048,2023-05-03,2023-05-17,2023-05-20,20,received

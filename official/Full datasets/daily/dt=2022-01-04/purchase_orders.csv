@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2112-9218,PO2112-9218-01,502,2,30020,CM-XE-01,70,23721,2021-12-08,2022-01-02,2022-01-04,70,received
+PO2112-9218,PO2112-9218-02,502,2,30022,CC-KD-01,10,18338,2021-12-08,2022-01-02,2022-01-04,10,received
+PO2112-9218,PO2112-9218-03,502,2,30030,BC-12-03,60,165136,2021-12-08,2022-01-02,2022-01-04,60,received
+PO2112-9234,PO2112-9234-01,504,1,30046,BTT-HP-01,100,7956,2021-12-29,2022-01-03,2022-01-04,100,received

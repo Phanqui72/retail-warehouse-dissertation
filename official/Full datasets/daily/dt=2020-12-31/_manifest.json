@@ -1,0 +1,16 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2020-12-31",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-01-01T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 1,
+   "bytes": 80,
+   "md5": "002a107e63011491aeb51879802667c4",
+   "schema_version": "v1"
+  }
+ ]
+}

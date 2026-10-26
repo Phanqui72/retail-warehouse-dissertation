@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2205-9339,PO2205-9339-01,501,1,30006,MTN-HL-01,120,11313,2022-05-04,2022-05-11,2022-05-12,102,received
+PO2205-9339,PO2205-9339-02,501,1,30010,MTN-VC-02,60,28347,2022-05-04,2022-05-11,2022-05-12,60,received

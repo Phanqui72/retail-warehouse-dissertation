@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2312-9929,PO2312-9929-01,502,1,30026,BC-M5-01,60,76202,2023-12-13,2024-01-07,2024-01-06,60,received
+PO2312-9929,PO2312-9929-02,502,1,30030,BC-12-03,70,179112,2023-12-13,2024-01-07,2024-01-06,63,received
+PO2312-9929,PO2312-9929-03,502,1,30032,BC-DL7-02,80,96809,2023-12-13,2024-01-07,2024-01-06,80,received
+PO2312-9942,PO2312-9942-01,501,1,30036,BP-TG-01,240,10042,2023-12-27,2024-01-03,2024-01-06,240,received

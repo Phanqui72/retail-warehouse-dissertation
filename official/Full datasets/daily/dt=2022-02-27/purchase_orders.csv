@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2202-9265,PO2202-9265-01,503,2,30060,BD-RM-03,100,9330,2022-02-02,2022-02-23,2022-02-27,100,received

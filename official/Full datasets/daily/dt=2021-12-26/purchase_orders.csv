@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2112-9212,PO2112-9212-01,502,2,30014,CN-DB-02,60,41457,2021-12-01,2021-12-26,2021-12-26,60,received
+PO2112-9212,PO2112-9212-02,502,2,30072,TRC-SL-01,50,13369,2021-12-01,2021-12-26,2021-12-26,45,received
+PO2112-9221,PO2112-9221-01,501,1,30001,MTN-GN-01,360,14063,2021-12-15,2021-12-22,2021-12-26,360,received

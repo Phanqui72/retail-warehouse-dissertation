@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2302-9612,PO2302-9612-01,502,2,30014,CN-DB-02,80,46036,2023-02-15,2023-03-12,2023-03-13,80,received

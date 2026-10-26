@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2109-9158,PO2109-9158-01,503,1,30045,DC-MY-02,40,11363,2021-09-22,2021-10-13,2021-10-19,52,received
+PO2109-9158,PO2109-9158-02,503,1,30062,LC-GR-02,50,26567,2021-09-22,2021-10-13,2021-10-19,50,received
+PO2109-9158,PO2109-9158-03,503,1,30078,GU-CT-02,30,13917,2021-09-22,2021-10-13,2021-10-19,30,received
+PO2110-9176,PO2110-9176-01,504,1,30047,BTT-HP-02,280,10713,2021-10-13,2021-10-18,2021-10-19,280,received

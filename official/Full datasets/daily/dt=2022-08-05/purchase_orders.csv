@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2207-9419,PO2207-9419-01,505,2,30051,LM-DA-01,150,70901,2022-07-20,2022-08-03,2022-08-05,150,received
+PO2207-9419,PO2207-9419-02,505,2,30053,GS-DA-01,110,49777,2022-07-20,2022-08-03,2022-08-05,110,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2501-10344,PO2501-10344-01,502,1,30013,CN-DB-01,280,48052,2025-01-08,2025-02-02,2025-02-06,280,received
+PO2501-10344,PO2501-10344-02,502,1,30020,CM-XE-01,90,27988,2025-01-08,2025-02-02,2025-02-06,90,received
+PO2501-10344,PO2501-10344-03,502,1,30024,CM-DT-01,80,16116,2025-01-08,2025-02-02,2025-02-06,80,received

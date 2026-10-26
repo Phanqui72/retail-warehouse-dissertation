@@ -1,0 +1,8 @@
+shop_code,sale_channel,platform,channel_name,shop_name,is_marketplace,opened_date,closed_date
+SHP_MALL,42,shopee,Shopee,Velia Official Store (Shopee Mall),True,2021-01-01,
+SHP_02,42,shopee,Shopee,Mira Tools Store (Shopee),True,2022-03-01,
+TTS_01,48,tiktok,TikTok Shop,Velia Beauty TikTok Shop,True,2022-06-15,
+LZD_01,41,lazada,Lazada,Velia LazMall,True,2021-01-01,
+WEB_01,1,website,Website,velia.vn (website),False,2021-01-01,
+FB_01,2,social,Facebook / Zalo,Fanpage & Zalo OA,False,2021-01-01,
+STORE_HN,3,offline,Cửa hàng,Showroom Hà Nội,False,2023-04-01,

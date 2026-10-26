@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2501-10336,PO2501-10336-01,501,1,30011,MTN-HY-01,270,24310,2025-01-01,2025-01-08,2025-01-10,268,received

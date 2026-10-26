@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2406-10113,PO2406-10113-01,504,1,30047,BTT-HP-02,410,11788,2024-06-12,2024-06-17,2024-06-17,410,received

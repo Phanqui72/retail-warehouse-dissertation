@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2507-10515,PO2507-10515-01,502,2,30014,CN-DB-02,80,46482,2025-07-02,2025-07-27,2025-07-25,80,received
+PO2507-10515,PO2507-10515-02,502,2,30017,CN-KB-02,60,56300,2025-07-02,2025-07-27,2025-07-25,60,received
+PO2507-10515,PO2507-10515-03,502,2,30027,BC-M5-02,90,77046,2025-07-02,2025-07-27,2025-07-25,90,received

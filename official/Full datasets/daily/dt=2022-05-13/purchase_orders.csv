@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2204-9330,PO2204-9330-01,503,1,30039,KM-IN-02,70,33518,2022-04-20,2022-05-11,2022-05-13,64,received
+PO2204-9330,PO2204-9330-02,503,1,30063,LO-CT-01,60,10332,2022-04-20,2022-05-11,2022-05-13,60,received
+PO2204-9330,PO2204-9330-03,503,1,30083,TU-MP-04,60,64845,2022-04-20,2022-05-11,2022-05-13,60,received

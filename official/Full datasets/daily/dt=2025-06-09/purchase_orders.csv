@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2505-10470,PO2505-10470-01,503,1,30059,BD-RM-02,150,10468,2025-05-21,2025-06-11,2025-06-09,150,received

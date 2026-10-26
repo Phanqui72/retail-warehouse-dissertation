@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2408-10195,PO2408-10195-01,503,1,30043,NH-MY-02,80,13608,2024-08-21,2024-09-11,2024-09-14,80,received
+PO2408-10195,PO2408-10195-02,503,1,30061,LC-GR-01,50,29199,2024-08-21,2024-09-11,2024-09-14,50,received
+PO2408-10195,PO2408-10195-03,503,1,30079,GU-CT-03,80,14313,2024-08-21,2024-09-11,2024-09-14,80,received

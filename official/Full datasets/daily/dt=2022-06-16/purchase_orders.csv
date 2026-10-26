@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2205-9356,PO2205-9356-01,502,2,30030,BC-12-03,80,177417,2022-05-18,2022-06-12,2022-06-16,80,received

@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-11-14",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-11-15T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 197,
+   "bytes": 39152,
+   "md5": "ad9d5242e529becaf6b5f11520ff738d",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 122,
+   "bytes": 10395,
+   "md5": "63d8cffd95b4ffca47b171a353390d40",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 93,
+   "bytes": 4710,
+   "md5": "2371af55426c1a816bf100d8e466784f",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 565,
+   "bytes": 22038,
+   "md5": "b6aadaf028ebc4fe74123abcc3a29b74",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 86,
+   "bytes": 6376,
+   "md5": "12aee7d14a2417a0adec2abead263246",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 17,
+   "bytes": 3067,
+   "md5": "7fa576fb4135c69c593a1919962298e9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 81,
+   "bytes": 7808,
+   "md5": "80b083a26311b711e2b40ff7e09478c4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "purchase_orders",
+   "file": "purchase_orders.csv",
+   "rows": 2,
+   "bytes": 348,
+   "md5": "ba2baec2f622221faf59dafb795f2e58",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 44,
+   "bytes": 6524,
+   "md5": "ae9cc229f1d65df66695137bd0a6bc2e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 486,
+   "md5": "52a283925b806b23893e0ce3f9f5cc57",
+   "schema_version": "v1"
+  }
+ ]
+}

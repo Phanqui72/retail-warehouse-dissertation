@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2401-9976,PO2401-9976-01,502,2,30071,NRC-VS-02,60,52918,2024-01-24,2024-02-18,2024-02-20,51,received
+PO2401-9984,PO2401-9984-01,503,2,30061,LC-GR-01,60,29085,2024-01-31,2024-02-21,2024-02-20,60,received
+PO2401-9984,PO2401-9984-02,503,2,30077,GU-CT-01,100,14386,2024-01-31,2024-02-21,2024-02-20,100,received
+PO2401-9984,PO2401-9984-03,503,2,30082,TU-MP-03,40,67527,2024-01-31,2024-02-21,2024-02-20,40,received

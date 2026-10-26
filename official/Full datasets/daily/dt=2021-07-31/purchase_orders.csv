@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2107-9103,PO2107-9103-01,501,2,30004,MTN-GN-04,150,14424,2021-07-21,2021-07-28,2021-07-31,150,received

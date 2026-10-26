@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2202-9264,PO2202-9264-01,501,2,30033,BP-TR-01,100,6734,2022-02-02,2022-02-09,2022-02-10,100,received

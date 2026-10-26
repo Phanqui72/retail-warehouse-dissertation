@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2108-9114,PO2108-9114-01,503,1,30056,BT-TB-02,40,6542,2021-08-04,2021-08-25,2021-08-28,40,received
+PO2108-9114,PO2108-9114-02,503,1,30079,GU-CT-03,20,13758,2021-08-04,2021-08-25,2021-08-28,20,received

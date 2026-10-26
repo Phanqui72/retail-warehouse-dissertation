@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2202-9266,PO2202-9266-01,502,1,30015,CN-DB-03,70,43343,2022-02-09,2022-03-06,,,open
+PO2202-9267,PO2202-9267-01,504,1,30048,BTT-HP-03,120,16514,2022-02-09,2022-02-14,,,open
+PO2202-9268,PO2202-9268-01,504,2,30047,BTT-HP-02,370,11413,2022-02-09,2022-02-14,,,open
+PO2202-9269,PO2202-9269-01,503,2,30063,LO-CT-01,20,10171,2022-02-09,2022-03-02,,,open

@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2512-10702,PO2512-10702-01,501,1,30009,MTN-VC-01,130,30937,2025-12-24,2025-12-31,2026-01-02,130,received

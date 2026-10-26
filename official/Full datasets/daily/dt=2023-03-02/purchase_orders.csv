@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2302-9605,PO2302-9605-01,503,2,30044,DC-MY-01,180,7202,2023-02-08,2023-03-01,2023-03-02,180,received
+PO2302-9605,PO2302-9605-02,503,2,30064,LO-CT-02,90,11183,2023-02-08,2023-03-01,2023-03-02,90,received
+PO2302-9605,PO2302-9605-03,503,2,30066,KT-CC-01,250,6311,2023-02-08,2023-03-01,2023-03-02,250,received

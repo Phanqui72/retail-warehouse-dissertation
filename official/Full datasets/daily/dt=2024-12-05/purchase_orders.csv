@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2411-10293,PO2411-10293-01,505,1,30051,LM-DA-01,210,75497,2024-11-20,2024-12-04,2024-12-05,210,received
+PO2411-10299,PO2411-10299-01,501,1,30003,MTN-GN-03,350,15920,2024-11-27,2024-12-04,2024-12-05,350,received
+PO2411-10299,PO2411-10299-02,501,1,30036,BP-TG-01,270,9718,2024-11-27,2024-12-04,2024-12-05,270,received

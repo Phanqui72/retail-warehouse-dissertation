@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2109-9162,PO2109-9162-01,502,1,30019,CP-PP-02,60,43577,2021-09-29,2021-10-24,2021-10-28,60,received
+PO2109-9162,PO2109-9162-02,502,1,30073,TRC-SL-02,30,13372,2021-09-29,2021-10-24,2021-10-28,30,received
+PO2109-9165,PO2109-9165-01,502,2,30015,CN-DB-03,150,40878,2021-09-29,2021-10-24,2021-10-28,150,received
+PO2109-9165,PO2109-9165-02,502,2,30021,CM-XE-02,110,24442,2021-09-29,2021-10-24,2021-10-28,110,received

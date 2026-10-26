@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2603-10781,PO2603-10781-01,505,2,30054,GS-DA-02,30,54068,2026-03-25,2026-04-08,2026-04-07,26,received

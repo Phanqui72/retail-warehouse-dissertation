@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2203-9293,PO2203-9293-01,502,2,30018,CP-PP-01,90,47006,2022-03-09,2022-04-03,2022-04-03,90,received
+PO2203-9293,PO2203-9293-02,502,2,30028,BC-12-01,250,172007,2022-03-09,2022-04-03,2022-04-03,250,received

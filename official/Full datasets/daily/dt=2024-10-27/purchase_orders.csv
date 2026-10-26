@@ -1,0 +1,3 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2410-10243,PO2410-10243-01,502,2,30071,NRC-VS-02,70,51627,2024-10-02,2024-10-27,2024-10-27,70,received
+PO2410-10243,PO2410-10243-02,502,2,30072,TRC-SL-01,180,15093,2024-10-02,2024-10-27,2024-10-27,180,received

@@ -1,0 +1,1 @@
+order_id,order_product_id,product_id,product_code,quantity,original_price,unit_price,total_amount,line_discount_amount,avg_cost,partial_return_status,order_updated_at

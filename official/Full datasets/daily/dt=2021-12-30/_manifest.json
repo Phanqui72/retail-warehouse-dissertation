@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-12-30",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-12-31T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 157,
+   "bytes": 30246,
+   "md5": "779d3d9fda5f16ea4ffbe2bc6995b1aa",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 141,
+   "bytes": 12029,
+   "md5": "1bd56827e5ab60f5c66d0c6a749ea8cd",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 95,
+   "bytes": 4878,
+   "md5": "18160247739dfe2b8a9e30d0fd76197b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 418,
+   "bytes": 16200,
+   "md5": "934967f85d6bf03037d7d3249f5212d2",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 91,
+   "bytes": 6780,
+   "md5": "14da1a0cbcd63132b7a1d37b3b2972f4",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 16,
+   "bytes": 2793,
+   "md5": "9c213abc3fc35e9d45d1ab45a5def12b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 52,
+   "bytes": 5067,
+   "md5": "589a5ae731b3ad2dfc02748057099120",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 112,
+   "bytes": 4665,
+   "md5": "c4436f0de3e3e10c40b8138bd66bf964",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 46,
+   "bytes": 6716,
+   "md5": "ff8c3e462194b515741f801d8e6f3cd1",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 485,
+   "md5": "058a839f9bf680687a84ea2301c6faf3",
+   "schema_version": "v1"
+  }
+ ]
+}

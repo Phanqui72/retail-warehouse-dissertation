@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2508-10573,PO2508-10573-01,502,1,30016,CN-KB-01,120,57509,2025-08-27,2025-09-21,2025-09-28,120,received
+PO2508-10573,PO2508-10573-02,502,1,30030,BC-12-03,80,188503,2025-08-27,2025-09-21,2025-09-28,104,received
+PO2508-10573,PO2508-10573-03,502,1,30072,TRC-SL-01,260,15783,2025-08-27,2025-09-21,2025-09-28,260,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2112-9232,PO2112-9232-01,502,1,30023,CC-KD-02,10,17798,2021-12-29,2022-01-23,2022-01-25,10,received
+PO2112-9232,PO2112-9232-02,502,1,30028,BC-12-01,160,168430,2021-12-29,2022-01-23,2022-01-25,160,received
+PO2112-9232,PO2112-9232-03,502,1,30072,TRC-SL-01,40,13140,2021-12-29,2022-01-23,2022-01-25,40,received

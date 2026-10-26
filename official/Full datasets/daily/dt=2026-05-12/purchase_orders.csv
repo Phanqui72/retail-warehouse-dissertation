@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2604-10817,PO2604-10817-01,505,2,30052,LM-DA-02,40,83724,2026-04-29,2026-05-13,2026-05-12,40,received
+PO2604-10817,PO2604-10817-02,505,2,30053,GS-DA-01,140,55619,2026-04-29,2026-05-13,2026-05-12,140,received
+PO2604-10817,PO2604-10817-03,505,2,30054,GS-DA-02,40,55486,2026-04-29,2026-05-13,2026-05-12,40,received

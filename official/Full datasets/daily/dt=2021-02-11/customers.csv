@@ -1,0 +1,20 @@
+customer_id,customer_unique_id,customer_province_code,customer_province_name_raw,first_seen_channel
+c0009841cd9829fc,013da12baef6367265e96cefd4d34064,42,Hà Tĩnh,SHP_MALL
+c09dedd4893c58ba,d74f9e633e399b8e90b5e2e7364d2c53,36,Nam Định,FB_01
+c1cd72e1a2660db8,71239a7f68dbdc7c347f2363fd7a3cd7,01,Ha Noi,WEB_01
+c512bcb1a8722696,c6333b5f0cfb16eca67d643abcd45202,17,Hòa Bình,LZD_01
+c5fc7c9eac688b10,00d43f2085dc955a9306a603ae2f625f,68,Lâm Đồng,FB_01
+c6c0721b93935562,8c3c3af3b4fc9db0866f4d9100325643,19,Thái Nguyên,SHP_MALL
+c6f1774145177e26,df1a52c5930530cef20c536bde9b2e72,79,Hồ Chí Minh,FB_01
+c7b88fa7c2a574b5,1f977af64a3daba59ef69f48c2a1f9f8,79,Hồ Chí Minh,WEB_01
+c7c7224b2a661690,5850fe8c793260754da2a84f4c8ae4c2,75,Đồng Nai,FB_01
+c997df3af00cd238,63e4b5211b4b4ba5e798e0da538c7eae,79,Hồ Chí Minh,FB_01
+cafd43831c0c1315,4c608cb394f838f699c8f6947bbdb8da,92,Cần Thơ,SHP_MALL
+cd626b26d526fd02,9f34a42dc35444aa0fa9b668daa4539d,79,tp hcm,SHP_MALL
+cdd3aeed13b37c15,c1011c7f7d751c5a65152cffd81f5480,22,Quảng Ninh,SHP_MALL
+cdf06854cd987558,e5cb0f3503cee097ebfb55c0344781cb,93,Hậu Giang,SHP_MALL
+ce4547e79767cec5,a45defe97e08ad3cfdaa861ce1eddbf8,68,Lâm Đồng,LZD_01
+ceba7c5e90fb0201,383b49bde76b2a7a5f94f8b1d4ca5edd,38,Thanh Hóa,SHP_MALL
+cec3efa57f40293b,15209b0e16219815afbc445022d1926e,01,Hà Nội,SHP_MALL
+cf69aba8ff47f678,c416542fe23ed6eb22d0dcd862b35e66,77,Bà Rịa - Vũng Tàu,SHP_MALL
+cfdec030f43bcb0d,7226ada9d6069c272696f73379067cd3,79,Hồ Chí Minh,SHP_MALL

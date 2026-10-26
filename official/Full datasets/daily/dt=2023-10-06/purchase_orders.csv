@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2309-9849,PO2309-9849-01,501,1,30008,MTN-HL-03,120,12022,2023-09-27,2023-10-04,2023-10-06,120,received

@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2209-9485,PO2209-9485-01,503,1,30042,NH-MY-01,130,12586,2022-09-28,2022-10-19,2022-10-24,130,received
+PO2209-9485,PO2209-9485-02,503,1,30043,NH-MY-02,40,12555,2022-09-28,2022-10-19,2022-10-24,40,received
+PO2209-9485,PO2209-9485-03,503,1,30082,TU-MP-03,40,64528,2022-09-28,2022-10-19,2022-10-24,40,received

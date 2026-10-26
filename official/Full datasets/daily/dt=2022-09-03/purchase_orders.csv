@@ -1,0 +1,5 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2208-9438,PO2208-9438-01,503,1,30056,BT-TB-02,50,6802,2022-08-10,2022-08-31,2022-09-03,50,received
+PO2208-9438,PO2208-9438-02,503,1,30079,GU-CT-03,20,13763,2022-08-10,2022-08-31,2022-09-03,20,received
+PO2208-9438,PO2208-9438-03,503,1,30080,TU-MP-01,90,45662,2022-08-10,2022-08-31,2022-09-03,90,received
+PO2208-9438,PO2208-9438-04,503,1,30081,TU-MP-02,30,46915,2022-08-10,2022-08-31,2022-09-03,30,received

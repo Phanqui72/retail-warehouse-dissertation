@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2210-9506,PO2210-9506-01,503,1,30041,KM-MN-02,20,18914,2022-10-19,2022-11-09,2022-11-10,20,received

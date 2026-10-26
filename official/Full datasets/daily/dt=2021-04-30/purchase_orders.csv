@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2104-9024,PO2104-9024-01,502,1,30015,CN-DB-03,80,40688,2021-04-07,2021-05-02,2021-04-30,69,received
+PO2104-9024,PO2104-9024-02,502,1,30030,BC-12-03,30,164045,2021-04-07,2021-05-02,2021-04-30,30,received
+PO2104-9028,PO2104-9028-01,503,2,30055,BT-TB-01,70,6498,2021-04-07,2021-04-28,2021-04-30,70,received

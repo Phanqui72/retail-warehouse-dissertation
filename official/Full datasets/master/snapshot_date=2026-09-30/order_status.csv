@@ -1,0 +1,13 @@
+status_code,status_name,status_group,is_demand,is_net_sale,is_delivered,is_cancelled,is_returned,is_final
+54,Mới,processing,1,1,0,0,0,0
+56,Đã xác nhận,processing,1,1,0,0,0,0
+42,Đang đóng gói,processing,1,1,0,0,0,0
+40,Đã đóng gói,processing,1,1,0,0,0,0
+59,Đang chuyển,shipping,1,1,0,0,0,0
+60,Thành công,success,1,1,1,0,0,1
+61,Thất lạc,lost,1,0,0,0,0,1
+63,Khách hủy,cancelled,0,0,0,1,0,1
+64,Hệ thống / sàn hủy,cancelled,0,0,0,1,0,1
+71,Đang chuyển hoàn,returning,1,0,0,0,1,0
+72,Đã chuyển hoàn,returned,1,0,0,0,1,1
+74,Xác nhận hoàn,returned,1,0,0,0,1,1

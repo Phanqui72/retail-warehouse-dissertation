@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2601-10729,PO2601-10729-01,503,2,30043,NH-MY-02,60,14894,2026-01-28,2026-02-18,2026-02-20,60,received
+PO2601-10729,PO2601-10729-02,503,2,30075,GU-LED-01,70,142446,2026-01-28,2026-02-18,2026-02-20,70,received
+PO2602-10739,PO2602-10739-01,504,1,30047,BTT-HP-02,490,12899,2026-02-11,2026-02-16,2026-02-20,490,received

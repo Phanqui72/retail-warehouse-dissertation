@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2311-9892,PO2311-9892-01,502,2,30013,CN-DB-01,150,44437,2023-11-01,2023-11-26,2023-12-03,133,received
+PO2311-9892,PO2311-9892-02,502,2,30031,BC-DL7-01,230,93355,2023-11-01,2023-11-26,2023-12-03,230,received
+PO2311-9892,PO2311-9892-03,502,2,30073,TRC-SL-02,80,14442,2023-11-01,2023-11-26,2023-12-03,80,received

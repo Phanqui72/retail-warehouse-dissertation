@@ -1,0 +1,136 @@
+{
+ "batch_type": "master_full_snapshot",
+ "dt": "2026-09-30",
+ "source": "oms_extract_sim",
+ "generated_at": "2026-10-01T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "products",
+   "file": "products.csv",
+   "rows": 102,
+   "bytes": 21078,
+   "md5": "af31d0570c1e06b605a904fee53da405",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "product_attributes",
+   "file": "product_attributes.csv",
+   "rows": 260,
+   "bytes": 8328,
+   "md5": "5e9a82bf806321b20f0ac2ee6bbf39a6",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "product_bundles",
+   "file": "product_bundles.csv",
+   "rows": 31,
+   "bytes": 990,
+   "md5": "41fa8d25e10a0b3feac067f232039814",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "categories",
+   "file": "categories.csv",
+   "rows": 16,
+   "bytes": 697,
+   "md5": "fe3fe394a23db06fa2ba996a30927cad",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "brands",
+   "file": "brands.csv",
+   "rows": 3,
+   "bytes": 95,
+   "md5": "a046961474797d4bf7ca1aa1111e9e04",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "channels_shops",
+   "file": "channels_shops.csv",
+   "rows": 7,
+   "bytes": 562,
+   "md5": "3123530c8d1d65eaee48b0807db5cc00",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "warehouses",
+   "file": "warehouses.csv",
+   "rows": 4,
+   "bytes": 373,
+   "md5": "1242efdb697c18a084bc94f01ef606b3",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "carriers",
+   "file": "carriers.csv",
+   "rows": 7,
+   "bytes": 220,
+   "md5": "d465ca21e13749a43ef33e898d96ba04",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "suppliers",
+   "file": "suppliers.csv",
+   "rows": 5,
+   "bytes": 413,
+   "md5": "b940d406ef4f6e477f31c6e975ce3b1c",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "geolocation",
+   "file": "geolocation.csv",
+   "rows": 63,
+   "bytes": 3941,
+   "md5": "ee60a177546b60f1aa59d5c483d070f5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_policy",
+   "file": "inventory_policy.csv",
+   "rows": 170,
+   "bytes": 8479,
+   "md5": "27e051ebc5af35945d3d638cb1374054",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listings",
+   "file": "listings.csv",
+   "rows": 341,
+   "bytes": 44838,
+   "md5": "8504562291001d1211442d9ed1c258b2",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "events_calendar",
+   "file": "events_calendar.csv",
+   "rows": 166,
+   "bytes": 11402,
+   "md5": "62dea8a17a4ce6e227317ed20be15563",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status",
+   "file": "order_status.csv",
+   "rows": 12,
+   "bytes": 597,
+   "md5": "7d5770b4429313db3ae8cc4ee736f735",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "movement_types",
+   "file": "movement_types.csv",
+   "rows": 9,
+   "bytes": 429,
+   "md5": "bdad05e9a392a29105150540bc347418",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reasons",
+   "file": "order_reasons.csv",
+   "rows": 10,
+   "bytes": 352,
+   "md5": "d8a83dee6854826e7c4f418ea3b6ee6a",
+   "schema_version": "v1"
+  }
+ ]
+}

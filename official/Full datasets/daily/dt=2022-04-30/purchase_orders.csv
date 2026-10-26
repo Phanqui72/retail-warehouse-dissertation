@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2204-9328,PO2204-9328-01,501,1,30010,MTN-VC-02,30,28325,2022-04-20,2022-04-27,2022-04-30,30,received

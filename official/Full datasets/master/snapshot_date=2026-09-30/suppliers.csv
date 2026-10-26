@@ -1,0 +1,6 @@
+supplier_id,supplier_name,country,lead_time_days,min_order_value,payment_terms
+501,Công ty TNHH Foam Việt (hư cấu),VN,7,5000000,NET30
+502,Guangzhou Brush Factory (hư cấu),CN,25,20000000,T/T 30% đặt cọc
+503,Yiwu Beauty Accessories (hư cấu),CN,21,15000000,T/T 30% đặt cọc
+504,Cotton Pad Hưng Yên (hư cấu),VN,5,3000000,NET15
+505,Đá tự nhiên Lục Yên (hư cấu),VN,14,8000000,NET30

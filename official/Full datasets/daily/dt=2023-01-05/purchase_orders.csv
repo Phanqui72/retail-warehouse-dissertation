@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2212-9553,PO2212-9553-01,502,2,30027,BC-M5-02,60,69766,2022-12-07,2023-01-01,2023-01-05,60,received
+PO2212-9553,PO2212-9553-02,502,2,30031,BC-DL7-01,70,91000,2022-12-07,2023-01-01,2023-01-05,70,received
+PO2212-9573,PO2212-9573-01,504,2,30048,BTT-HP-03,240,17159,2022-12-28,2023-01-02,2023-01-05,240,received

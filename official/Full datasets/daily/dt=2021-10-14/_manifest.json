@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2021-10-14",
+ "source": "oms_extract_sim",
+ "generated_at": "2021-10-15T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 157,
+   "bytes": 31384,
+   "md5": "a76b8cf6e15766f496081b831cb60c40",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 102,
+   "bytes": 8729,
+   "md5": "877a41b70100b429c995b62128651f6c",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 67,
+   "bytes": 3453,
+   "md5": "8ed11ec97d334d419aea4b23f53e7845",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 357,
+   "bytes": 13909,
+   "md5": "bad6d8b595a86536a4b5666196e27cd5",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 64,
+   "bytes": 4722,
+   "md5": "8c4cc8e2d40022c1d762d83b8f5bd00b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 21,
+   "bytes": 3626,
+   "md5": "3df9ba6eb881d7f0f99ed10759ac70f0",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 36,
+   "bytes": 3574,
+   "md5": "b1efca8742992a18b9e3d9e8956aa42b",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_snapshots_daily",
+   "file": "inventory_snapshots_daily.csv",
+   "rows": 94,
+   "bytes": 3948,
+   "md5": "dec40301f9b9a1740a764c59d17372c8",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 42,
+   "bytes": 6055,
+   "md5": "49fa9f455f6e4637e47fee25306667b2",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 6,
+   "bytes": 482,
+   "md5": "9eba176ebc0ca8041457fd1f1f3b04c9",
+   "schema_version": "v1"
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "batch_type": "daily_incremental",
+ "dt": "2023-06-03",
+ "source": "oms_extract_sim",
+ "generated_at": "2023-06-04T01:30:00+07:00",
+ "files": [
+  {
+   "dataset": "orders",
+   "file": "orders.csv",
+   "rows": 275,
+   "bytes": 52681,
+   "md5": "572ef9727481fefa267c5f427aa4bca9",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_items",
+   "file": "order_items.csv",
+   "rows": 224,
+   "bytes": 18923,
+   "md5": "ba3e3aa283774ac0c1815021a537a245",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_payments",
+   "file": "order_payments.csv",
+   "rows": 158,
+   "bytes": 8265,
+   "md5": "6bd8534c4947a27d027ac81fda2a44e2",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_status_history",
+   "file": "order_status_history.csv",
+   "rows": 847,
+   "bytes": 32834,
+   "md5": "be05d607f4e1fb65a1e58f360c230659",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "customers",
+   "file": "customers.csv",
+   "rows": 151,
+   "bytes": 11110,
+   "md5": "26b8f1a26da9fe7c2332063d0583f470",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "order_reviews",
+   "file": "order_reviews.csv",
+   "rows": 50,
+   "bytes": 8392,
+   "md5": "3ebf9218490c269d26bb3e6a0b270f02",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "inventory_movements",
+   "file": "inventory_movements.csv",
+   "rows": 143,
+   "bytes": 13584,
+   "md5": "6e0702b1aa1173c7a56331dc9e0474fc",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "purchase_orders",
+   "file": "purchase_orders.csv",
+   "rows": 4,
+   "bytes": 557,
+   "md5": "c406fc221dd7dd7486c47eaa6244de5e",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "listing_traffic_daily",
+   "file": "listing_traffic_daily.csv",
+   "rows": 152,
+   "bytes": 20930,
+   "md5": "1ff8db1e79fdcf7eabf87747658ab9fb",
+   "schema_version": "v1"
+  },
+  {
+   "dataset": "ads_spend_daily",
+   "file": "ads_spend_daily.csv",
+   "rows": 12,
+   "bytes": 864,
+   "md5": "5df31e58df0b2343e99207e2754a67a3",
+   "schema_version": "v1"
+  }
+ ]
+}

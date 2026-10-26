@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2405-10089,PO2405-10089-01,505,2,30052,LM-DA-02,30,74355,2024-05-15,2024-05-29,2024-05-30,30,received
+PO2405-10089,PO2405-10089-02,505,2,30054,GS-DA-02,20,52718,2024-05-15,2024-05-29,2024-05-30,18,received
+PO2405-10094,PO2405-10094-01,501,2,30011,MTN-HY-01,240,23016,2024-05-22,2024-05-29,2024-05-30,217,received

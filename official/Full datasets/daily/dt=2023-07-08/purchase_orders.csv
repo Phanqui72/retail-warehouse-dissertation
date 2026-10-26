@@ -1,0 +1,2 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2306-9738,PO2306-9738-01,503,1,30084,HD-CO-01,20,17894,2023-06-14,2023-07-05,2023-07-08,20,received

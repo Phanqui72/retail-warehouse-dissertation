@@ -1,0 +1,4 @@
+po_id,po_line_id,supplier_id,depot_id,product_id,product_code,order_qty,unit_cost,order_date,expected_date,received_date,received_qty,po_status
+PO2508-10556,PO2508-10556-01,502,1,30015,CN-DB-03,120,46245,2025-08-13,2025-09-07,2025-09-07,120,received
+PO2508-10556,PO2508-10556-02,502,1,30018,CP-PP-01,120,52178,2025-08-13,2025-09-07,2025-09-07,120,received
+PO2508-10556,PO2508-10556-03,502,1,30031,BC-DL7-01,200,101801,2025-08-13,2025-09-07,2025-09-07,200,received
